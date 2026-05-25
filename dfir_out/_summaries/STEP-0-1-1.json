@@ -1,0 +1,16 @@
+{
+  "step_id": "STEP-0-1-1",
+  "phase": 0,
+  "execution_status": "completed",
+  "started_utc": "2026-05-24T23:15:49.725214Z",
+  "finished_utc": "2026-05-24T23:15:49.736607Z",
+  "artifacts_generated": [
+    "e01_listing"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [],
+  "next_branch": "NEXT:STEP-0-1-2",
+  "replay_hash": "c0e05059db1fd483988d7046134b27cf59eca656002481af21eb3024440d2ffa",
+  "summarized_utc": "2026-05-24T23:15:49.736809Z"
+}
