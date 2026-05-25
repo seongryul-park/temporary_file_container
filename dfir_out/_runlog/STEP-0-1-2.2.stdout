@@ -1,343 +1,367 @@
 ewfverify 20140816
 
-Verify started at: May 24, 2026 23:19:17
+Verify started at: May 25, 2026 06:22:30
 This could take a while.
 
 Status: at 1%.
-        verified 851 MiB (893124608 bytes) of total 81 GiB (87431311360 bytes).
+        verified 937 MiB (983400448 bytes) of total 81 GiB (87431311360 bytes).
         completion in 6 minute(s) and 36 second(s) with 208 MiB/s (218578278 bytes/second).
 
 Status: at 2%.
-        verified 1.7 GiB (1898938368 bytes) of total 81 GiB (87431311360 bytes).
+        verified 1.8 GiB (1940160512 bytes) of total 81 GiB (87431311360 bytes).
         completion in 6 minute(s) and 32 second(s) with 208 MiB/s (218578278 bytes/second).
 
 Status: at 3%.
-        verified 2.8 GiB (3010494464 bytes) of total 81 GiB (87431311360 bytes).
+        verified 2.7 GiB (2952036352 bytes) of total 81 GiB (87431311360 bytes).
         completion in 6 minute(s) and 28 second(s) with 208 MiB/s (218578278 bytes/second).
 
 Status: at 4%.
-        verified 3.6 GiB (3913646080 bytes) of total 81 GiB (87431311360 bytes).
+        verified 3.5 GiB (3801677824 bytes) of total 81 GiB (87431311360 bytes).
         completion in 6 minute(s) and 24 second(s) with 208 MiB/s (218578278 bytes/second).
 
 Status: at 5%.
-        verified 4.6 GiB (5027102720 bytes) of total 81 GiB (87431311360 bytes).
+        verified 4.5 GiB (4826038272 bytes) of total 81 GiB (87431311360 bytes).
         completion in 6 minute(s) and 20 second(s) with 208 MiB/s (218578278 bytes/second).
 
 Status: at 6%.
-        verified 5.5 GiB (5973540864 bytes) of total 81 GiB (87431311360 bytes).
+        verified 5.3 GiB (5769232384 bytes) of total 81 GiB (87431311360 bytes).
         completion in 6 minute(s) and 16 second(s) with 208 MiB/s (218578278 bytes/second).
 
 Status: at 7%.
-        verified 6.5 GiB (6975586304 bytes) of total 81 GiB (87431311360 bytes).
+        verified 6.2 GiB (6698663936 bytes) of total 81 GiB (87431311360 bytes).
         completion in 6 minute(s) and 12 second(s) with 208 MiB/s (218578278 bytes/second).
 
-Status: at 9%.
-        verified 7.4 GiB (7954923520 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 5 minute(s) and 23 second(s) with 234 MiB/s (246285384 bytes/second).
+Status: at 8%.
+        verified 7.2 GiB (7738884096 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 6 minute(s) and 8 second(s) with 208 MiB/s (218578278 bytes/second).
 
 Status: at 10%.
-        verified 8.4 GiB (9018802176 bytes) of total 81 GiB (87431311360 bytes).
+        verified 8.2 GiB (8840183808 bytes) of total 81 GiB (87431311360 bytes).
         completion in 5 minute(s) and 24 second(s) with 231 MiB/s (242864753 bytes/second).
 
 Status: at 11%.
-        verified 9.5 GiB (10206216192 bytes) of total 81 GiB (87431311360 bytes).
+        verified 9.4 GiB (10084843520 bytes) of total 81 GiB (87431311360 bytes).
         completion in 5 minute(s) and 23 second(s) with 229 MiB/s (240857607 bytes/second).
 
-Status: at 13%.
-        verified 10 GiB (11390582784 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 54 second(s) with 246 MiB/s (258672518 bytes/second).
+Status: at 12%.
+        verified 10 GiB (11162124288 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 5 minute(s) and 22 second(s) with 227 MiB/s (238883364 bytes/second).
 
 Status: at 14%.
-        verified 11 GiB (12763791360 bytes) of total 81 GiB (87431311360 bytes).
+        verified 11 GiB (12306087936 bytes) of total 81 GiB (87431311360 bytes).
         completion in 4 minute(s) and 54 second(s) with 243 MiB/s (255647109 bytes/second).
 
+Status: at 15%.
+        verified 12 GiB (13507526656 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 54 second(s) with 240 MiB/s (252691651 bytes/second).
+
 Status: at 16%.
-        verified 13 GiB (14154596352 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 33 second(s) with 256 MiB/s (269019419 bytes/second).
+        verified 13 GiB (14568423424 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 54 second(s) with 238 MiB/s (249803746 bytes/second).
 
 Status: at 17%.
-        verified 14 GiB (15324512256 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 33 second(s) with 253 MiB/s (265748666 bytes/second).
+        verified 14 GiB (15509225472 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 52 second(s) with 236 MiB/s (248384407 bytes/second).
 
 Status: at 18%.
-        verified 15 GiB (16288055296 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 33 second(s) with 250 MiB/s (262556490 bytes/second).
+        verified 15 GiB (16329474048 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 51 second(s) with 234 MiB/s (246285384 bytes/second).
 
 Status: at 19%.
-        verified 15 GiB (17052991488 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 32 second(s) with 248 MiB/s (260212236 bytes/second).
+        verified 15 GiB (17025171456 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 49 second(s) with 233 MiB/s (244905634 bytes/second).
 
 Status: at 20%.
-        verified 16 GiB (17807605760 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 32 second(s) with 245 MiB/s (257150915 bytes/second).
+        verified 16 GiB (17727455232 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 48 second(s) with 231 MiB/s (242864753 bytes/second).
 
 Status: at 21%.
-        verified 17 GiB (18600951808 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 30 second(s) with 243 MiB/s (255647109 bytes/second).
+        verified 17 GiB (18456444928 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 45 second(s) with 230 MiB/s (242191998 bytes/second).
+
+Status: at 21%.
+        verified 17 GiB (19177439232 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 5 minute(s) and 0 second(s) with 219 MiB/s (230082398 bytes/second).
 
 Status: at 22%.
-        verified 18 GiB (19375882240 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 29 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 18 GiB (19891945472 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 57 second(s) with 218 MiB/s (229478507 bytes/second).
 
 Status: at 23%.
-        verified 18 GiB (20159758336 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 27 second(s) with 240 MiB/s (251963433 bytes/second).
-
-Status: at 23%.
-        verified 19 GiB (20916535296 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 41 second(s) with 228 MiB/s (239537839 bytes/second).
+        verified 19 GiB (20607598592 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 54 second(s) with 218 MiB/s (228877778 bytes/second).
 
 Status: at 24%.
-        verified 20 GiB (21706440704 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 38 second(s) with 227 MiB/s (238883364 bytes/second).
+        verified 19 GiB (21401042944 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 51 second(s) with 217 MiB/s (228280186 bytes/second).
 
 Status: at 25%.
-        verified 20 GiB (22474358784 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 36 second(s) with 226 MiB/s (237585085 bytes/second).
+        verified 20 GiB (22254845952 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 48 second(s) with 217 MiB/s (227685706 bytes/second).
 
 Status: at 26%.
-        verified 21 GiB (23524868096 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 33 second(s) with 225 MiB/s (236941223 bytes/second).
+        verified 21 GiB (23265116160 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 44 second(s) with 217 MiB/s (227685706 bytes/second).
+
+Status: at 27%.
+        verified 22 GiB (24296390656 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 41 second(s) with 216 MiB/s (227094315 bytes/second).
 
 Status: at 28%.
-        verified 23 GiB (24714543104 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 17 second(s) with 233 MiB/s (244905634 bytes/second).
-
-Status: at 29%.
-        verified 24 GiB (25880592384 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 14 second(s) with 232 MiB/s (244221540 bytes/second).
+        verified 23 GiB (25304530944 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 37 second(s) with 216 MiB/s (227094315 bytes/second).
 
 Status: at 30%.
-        verified 25 GiB (27060961280 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 4 minute(s) and 12 second(s) with 231 MiB/s (242864753 bytes/second).
+        verified 24 GiB (26278789120 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 21 second(s) with 223 MiB/s (234400298 bytes/second).
+
+Status: at 31%.
+        verified 25 GiB (27318157312 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 18 second(s) with 222 MiB/s (233773559 bytes/second).
 
 Status: at 32%.
-        verified 26 GiB (28192538624 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 58 second(s) with 238 MiB/s (249803746 bytes/second).
+        verified 26 GiB (28438560768 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 15 second(s) with 222 MiB/s (233150163 bytes/second).
 
 Status: at 33%.
-        verified 27 GiB (29414653952 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 55 second(s) with 237 MiB/s (249092055 bytes/second).
+        verified 27 GiB (29600153600 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 4 minute(s) and 11 second(s) with 222 MiB/s (233150163 bytes/second).
 
-Status: at 34%.
-        verified 28 GiB (30581620736 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 52 second(s) with 236 MiB/s (248384407 bytes/second).
+Status: at 35%.
+        verified 28 GiB (30679040000 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 57 second(s) with 228 MiB/s (239537839 bytes/second).
 
 Status: at 36%.
-        verified 29 GiB (31892701184 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 40 second(s) with 242 MiB/s (254160788 bytes/second).
+        verified 29 GiB (31828934656 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 54 second(s) with 227 MiB/s (238883364 bytes/second).
 
 Status: at 37%.
-        verified 30 GiB (33108262912 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 37 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 30 GiB (32926629888 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 51 second(s) with 227 MiB/s (238232456 bytes/second).
+
+Status: at 38%.
+        verified 31 GiB (33847377920 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 48 second(s) with 226 MiB/s (237585085 bytes/second).
 
 Status: at 39%.
-        verified 31 GiB (34285813760 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 26 second(s) with 246 MiB/s (258672518 bytes/second).
+        verified 32 GiB (34785918976 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 45 second(s) with 225 MiB/s (236941223 bytes/second).
 
 Status: at 40%.
-        verified 32 GiB (35316695040 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 24 second(s) with 245 MiB/s (257150915 bytes/second).
+        verified 33 GiB (35741892608 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 42 second(s) with 225 MiB/s (236300841 bytes/second).
 
 Status: at 41%.
-        verified 33 GiB (36378214400 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 21 second(s) with 244 MiB/s (256396807 bytes/second).
+        verified 34 GiB (36633509888 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 38 second(s) with 225 MiB/s (236300841 bytes/second).
 
 Status: at 42%.
-        verified 34 GiB (37372821504 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 18 second(s) with 243 MiB/s (255647109 bytes/second).
+        verified 34 GiB (37491310592 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 35 second(s) with 224 MiB/s (235663912 bytes/second).
 
 Status: at 43%.
-        verified 35 GiB (38345539584 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 16 second(s) with 242 MiB/s (254160788 bytes/second).
+        verified 35 GiB (38386761728 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 32 second(s) with 224 MiB/s (235030406 bytes/second).
 
 Status: at 45%.
-        verified 36 GiB (39456899072 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 5 second(s) with 247 MiB/s (259440093 bytes/second).
+        verified 36 GiB (39347486720 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 20 second(s) with 229 MiB/s (240195910 bytes/second).
 
 Status: at 46%.
-        verified 37 GiB (40419655680 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 3 second(s) with 245 MiB/s (257909473 bytes/second).
+        verified 37 GiB (40225243136 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 17 second(s) with 228 MiB/s (239537839 bytes/second).
 
 Status: at 47%.
-        verified 38 GiB (41567977472 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 minute(s) and 0 second(s) with 245 MiB/s (257150915 bytes/second).
+        verified 38 GiB (41127215104 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 13 second(s) with 228 MiB/s (239537839 bytes/second).
 
 Status: at 48%.
-        verified 39 GiB (42511040512 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 57 second(s) with 244 MiB/s (256396807 bytes/second).
+        verified 39 GiB (42145120256 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 10 second(s) with 227 MiB/s (238883364 bytes/second).
 
 Status: at 49%.
-        verified 40 GiB (43475238912 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 54 second(s) with 243 MiB/s (255647109 bytes/second).
+        verified 40 GiB (43014520832 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 7 second(s) with 227 MiB/s (238232456 bytes/second).
 
 Status: at 50%.
-        verified 41 GiB (44283527168 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 52 second(s) with 242 MiB/s (254160788 bytes/second).
+        verified 40 GiB (43787878400 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 4 second(s) with 226 MiB/s (237585085 bytes/second).
+
+Status: at 50%.
+        verified 41 GiB (44562317312 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 8 second(s) with 221 MiB/s (232530083 bytes/second).
 
 Status: at 51%.
-        verified 42 GiB (45136904192 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 49 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 42 GiB (45458653184 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 4 second(s) with 221 MiB/s (232530083 bytes/second).
 
 Status: at 52%.
-        verified 43 GiB (46174306304 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 46 second(s) with 240 MiB/s (252691651 bytes/second).
+        verified 43 GiB (46308163584 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 3 minute(s) and 0 second(s) with 221 MiB/s (232530083 bytes/second).
 
 Status: at 54%.
-        verified 44 GiB (47344222208 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 36 second(s) with 245 MiB/s (257150915 bytes/second).
+        verified 44 GiB (47366733824 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 50 second(s) with 225 MiB/s (236300841 bytes/second).
 
 Status: at 55%.
-        verified 45 GiB (48425664512 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 33 second(s) with 244 MiB/s (256396807 bytes/second).
+        verified 44 GiB (48241934336 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 46 second(s) with 225 MiB/s (236300841 bytes/second).
 
 Status: at 56%.
-        verified 46 GiB (49407819776 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 30 second(s) with 243 MiB/s (255647109 bytes/second).
+        verified 45 GiB (49167106048 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 43 second(s) with 224 MiB/s (235663912 bytes/second).
 
 Status: at 57%.
-        verified 46 GiB (50339250176 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 27 second(s) with 243 MiB/s (254901782 bytes/second).
+        verified 46 GiB (50019467264 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 39 second(s) with 224 MiB/s (235663912 bytes/second).
 
 Status: at 58%.
-        verified 47 GiB (51268091904 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 24 second(s) with 242 MiB/s (254160788 bytes/second).
+        verified 47 GiB (50911412224 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 36 second(s) with 224 MiB/s (235030406 bytes/second).
 
 Status: at 59%.
-        verified 48 GiB (52230553600 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 21 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 48 GiB (51794804736 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 32 second(s) with 224 MiB/s (235030406 bytes/second).
 
 Status: at 60%.
-        verified 49 GiB (53210873856 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 18 second(s) with 240 MiB/s (252691651 bytes/second).
+        verified 48 GiB (52565835776 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 29 second(s) with 223 MiB/s (234400298 bytes/second).
 
 Status: at 61%.
-        verified 50 GiB (54143025152 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 15 second(s) with 240 MiB/s (251963433 bytes/second).
+        verified 49 GiB (53356232704 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 25 second(s) with 223 MiB/s (234400298 bytes/second).
+
+Status: at 62%.
+        verified 50 GiB (54273769472 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 22 second(s) with 222 MiB/s (233773559 bytes/second).
 
 Status: at 63%.
-        verified 51 GiB (55127703552 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 6 second(s) with 243 MiB/s (255647109 bytes/second).
+        verified 51 GiB (55270572032 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 18 second(s) with 222 MiB/s (233773559 bytes/second).
 
 Status: at 64%.
-        verified 52 GiB (56121622528 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 3 second(s) with 243 MiB/s (254901782 bytes/second).
+        verified 52 GiB (56292769792 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 15 second(s) with 222 MiB/s (233150163 bytes/second).
 
 Status: at 65%.
-        verified 53 GiB (57121374208 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 2 minute(s) and 0 second(s) with 242 MiB/s (254160788 bytes/second).
+        verified 53 GiB (57443188736 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 11 second(s) with 222 MiB/s (233150163 bytes/second).
 
 Status: at 66%.
-        verified 54 GiB (58090586112 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 57 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 54 GiB (58365509632 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 7 second(s) with 222 MiB/s (233150163 bytes/second).
 
 Status: at 67%.
-        verified 54 GiB (59037057024 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 54 second(s) with 240 MiB/s (252691651 bytes/second).
+        verified 55 GiB (59395047424 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 4 second(s) with 221 MiB/s (232530083 bytes/second).
 
 Status: at 68%.
-        verified 55 GiB (60030976000 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 51 second(s) with 240 MiB/s (251963433 bytes/second).
+        verified 56 GiB (60300886016 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 2 minute(s) and 0 second(s) with 221 MiB/s (232530083 bytes/second).
 
-Status: at 69%.
-        verified 56 GiB (61046685696 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 47 second(s) with 240 MiB/s (251963433 bytes/second).
+Status: at 70%.
+        verified 57 GiB (61312761856 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 51 second(s) with 224 MiB/s (235663912 bytes/second).
 
 Status: at 71%.
-        verified 57 GiB (62098014208 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 39 second(s) with 243 MiB/s (254901782 bytes/second).
+        verified 58 GiB (62435164160 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 47 second(s) with 224 MiB/s (235663912 bytes/second).
 
 Status: at 72%.
-        verified 58 GiB (63176441856 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 36 second(s) with 242 MiB/s (254160788 bytes/second).
+        verified 59 GiB (63390941184 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 44 second(s) with 224 MiB/s (235030406 bytes/second).
 
 Status: at 73%.
-        verified 59 GiB (64215973888 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 33 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 59 GiB (64350126080 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 40 second(s) with 224 MiB/s (235030406 bytes/second).
 
 Status: at 74%.
-        verified 60 GiB (65239285760 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 29 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 60 GiB (65131413504 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 36 second(s) with 224 MiB/s (235030406 bytes/second).
 
 Status: at 75%.
-        verified 61 GiB (66275835904 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 26 second(s) with 240 MiB/s (252691651 bytes/second).
+        verified 61 GiB (66172977152 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 33 second(s) with 223 MiB/s (234400298 bytes/second).
+
+Status: at 76%.
+        verified 62 GiB (67217162240 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 29 second(s) with 223 MiB/s (234400298 bytes/second).
 
 Status: at 77%.
-        verified 62 GiB (67348135936 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 18 second(s) with 243 MiB/s (255647109 bytes/second).
+        verified 63 GiB (68145184768 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 26 second(s) with 222 MiB/s (233773559 bytes/second).
 
 Status: at 78%.
-        verified 63 GiB (68335894528 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 15 second(s) with 243 MiB/s (254901782 bytes/second).
+        verified 64 GiB (69011603456 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 22 second(s) with 222 MiB/s (233773559 bytes/second).
 
 Status: at 79%.
-        verified 64 GiB (69281316864 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 12 second(s) with 242 MiB/s (254160788 bytes/second).
-
-Status: at 80%.
-        verified 65 GiB (70315933696 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 9 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 65 GiB (69875564544 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 18 second(s) with 222 MiB/s (233773559 bytes/second).
 
 Status: at 81%.
-        verified 66 GiB (71438204928 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 5 second(s) with 241 MiB/s (253424090 bytes/second).
+        verified 65 GiB (70820036608 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 10 second(s) with 225 MiB/s (236300841 bytes/second).
 
 Status: at 82%.
-        verified 67 GiB (72385888256 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 1 minute(s) and 2 second(s) with 240 MiB/s (252691651 bytes/second).
+        verified 66 GiB (71859535872 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 6 second(s) with 225 MiB/s (236300841 bytes/second).
+
+Status: at 83%.
+        verified 67 GiB (72614838272 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 1 minute(s) and 3 second(s) with 224 MiB/s (235663912 bytes/second).
 
 Status: at 84%.
-        verified 68 GiB (73456189440 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 54 second(s) with 243 MiB/s (255647109 bytes/second).
+        verified 68 GiB (73756049408 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 59 second(s) with 224 MiB/s (235663912 bytes/second).
 
-Status: at 85%.
-        verified 69 GiB (74832117760 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 51 second(s) with 243 MiB/s (254901782 bytes/second).
+Status: at 86%.
+        verified 70 GiB (75201183744 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 51 second(s) with 227 MiB/s (238232456 bytes/second).
 
 Status: at 87%.
-        verified 70 GiB (76191760384 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 44 second(s) with 245 MiB/s (257150915 bytes/second).
+        verified 71 GiB (76469469184 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 47 second(s) with 227 MiB/s (238232456 bytes/second).
 
 Status: at 88%.
-        verified 72 GiB (77579878400 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 40 second(s) with 245 MiB/s (257150915 bytes/second).
+        verified 72 GiB (77691158528 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 44 second(s) with 226 MiB/s (237585085 bytes/second).
 
 Status: at 90%.
-        verified 73 GiB (78876704768 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 33 second(s) with 247 MiB/s (259440093 bytes/second).
+        verified 73 GiB (78912028672 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 36 second(s) with 229 MiB/s (240195910 bytes/second).
 
 Status: at 91%.
-        verified 74 GiB (79978463232 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 30 second(s) with 246 MiB/s (258672518 bytes/second).
+        verified 74 GiB (79949856768 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 32 second(s) with 229 MiB/s (240195910 bytes/second).
 
 Status: at 92%.
-        verified 75 GiB (81139433472 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 27 second(s) with 245 MiB/s (257909473 bytes/second).
+        verified 75 GiB (80891478016 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 29 second(s) with 228 MiB/s (239537839 bytes/second).
+
+Status: at 93%.
+        verified 76 GiB (81853972480 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 25 second(s) with 228 MiB/s (239537839 bytes/second).
 
 Status: at 94%.
-        verified 76 GiB (82315411456 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 20 second(s) with 248 MiB/s (260212236 bytes/second).
-
-Status: at 95%.
-        verified 77 GiB (83576094720 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 16 second(s) with 248 MiB/s (260212236 bytes/second).
+        verified 77 GiB (82964938752 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 21 second(s) with 228 MiB/s (239537839 bytes/second).
 
 Status: at 96%.
-        verified 78 GiB (84731232256 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 13 second(s) with 247 MiB/s (259440093 bytes/second).
+        verified 78 GiB (84068630528 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 14 second(s) with 230 MiB/s (241522959 bytes/second).
+
+Status: at 97%.
+        verified 79 GiB (85134704640 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 10 second(s) with 230 MiB/s (241522959 bytes/second).
 
 Status: at 98%.
-        verified 80 GiB (85949874176 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 6 second(s) with 249 MiB/s (261770393 bytes/second).
+        verified 80 GiB (86485401600 bytes) of total 81 GiB (87431311360 bytes).
+        completion in 7 second(s) with 229 MiB/s (240857607 bytes/second).
 
-Status: at 99%.
-        verified 81 GiB (87355326464 bytes) of total 81 GiB (87431311360 bytes).
-        completion in 3 second(s) with 248 MiB/s (260988989 bytes/second).
+Verify completed at: May 25, 2026 06:28:28
 
-Verify completed at: May 24, 2026 23:24:49
-
-Read: 81 GiB (87431311360 bytes) in 5 minute(s) and 32 second(s) with 251 MiB/s (263347323 bytes/second).
+Read: 81 GiB (87431311360 bytes) in 5 minute(s) and 58 second(s) with 232 MiB/s (244221540 bytes/second).
 
 MD5 hash stored in file:		5efc207c85587683e5ca5fa2d5ef1aa4
 MD5 hash calculated over data:		5efc207c85587683e5ca5fa2d5ef1aa4
