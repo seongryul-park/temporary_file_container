@@ -2,13 +2,13 @@
   "step_id": "STEP-0-3",
   "phase": 0,
   "execution_status": "halted",
-  "started_utc": "2026-05-26T03:21:41.645420Z",
-  "finished_utc": "2026-05-26T03:21:41.754964Z",
+  "started_utc": "2026-05-26T08:58:35.529315Z",
+  "finished_utc": "2026-05-26T08:58:35.634541Z",
   "artifacts_generated": [],
   "findings_generated": [],
   "suspicious_entities": [],
   "degradation_flags": [],
   "next_branch": "HALT:HALT_OUTPUT",
-  "replay_hash": "1a29513b69a08b1b78a27cdd1b22fb4127c4bf2e3e4a2bc9c569d122403a347a",
-  "summarized_utc": "2026-05-26T03:21:41.755021Z"
+  "replay_hash": "576f7ea657bed051418f8a64df7d3c2ef832cb83c1110f8fa2415a8d7f6c9e24",
+  "summarized_utc": "2026-05-26T08:58:35.634626Z"
 }
