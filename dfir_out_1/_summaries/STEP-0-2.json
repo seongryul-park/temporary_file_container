@@ -2,8 +2,8 @@
   "step_id": "STEP-0-2",
   "phase": 0,
   "execution_status": "completed",
-  "started_utc": "2026-05-26T02:55:57.771391Z",
-  "finished_utc": "2026-05-26T02:55:58.242933Z",
+  "started_utc": "2026-05-26T03:21:41.420384Z",
+  "finished_utc": "2026-05-26T03:21:41.637015Z",
   "artifacts_generated": [
     "ewfmount_listing",
     "ewf_handle_stat"
@@ -12,6 +12,6 @@
   "suspicious_entities": [],
   "degradation_flags": [],
   "next_branch": "NEXT:STEP-0-3",
-  "replay_hash": "ac0e218ea7713d703f452e9add01470b8ec1b53891152ce86aeb7b0eb471bafa",
-  "summarized_utc": "2026-05-26T02:55:58.243078Z"
+  "replay_hash": "322b4305c996361d50c23d7440d02ef114ee76fbf97fbf5a1eed2a8756f13f83",
+  "summarized_utc": "2026-05-26T03:21:41.637180Z"
 }
