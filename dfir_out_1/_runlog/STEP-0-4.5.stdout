@@ -1,0 +1,21 @@
+/mnt/ewf/ewf1 on /mnt/image type ntfs3 (ro,noexec,relatime,uid=0,gid=0,iocharset=utf8)
+$GetCurrent
+$Recycle.Bin
+$SysReset
+$WinREAgent
+Documents and Settings
+DumpStack.log.tmp
+Intel
+OneDriveTemp
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+Recovery
+System Volume Information
+Users
+Windows
+Windows.old
+Windows10Upgrade
+hiberfil.sys
+pagefile.sys

@@ -1,0 +1,21 @@
+{
+  "step_id": "STEP-0-6-1",
+  "phase": 0,
+  "execution_status": "completed",
+  "started_utc": "2026-05-27T05:28:27.594609Z",
+  "finished_utc": "2026-05-27T05:28:30.455388Z",
+  "artifacts_generated": [
+    "rr_compname",
+    "rr_timezone",
+    "rr_samparse",
+    "registry_listing",
+    "registry_system_hive",
+    "registry_sam_hive"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [],
+  "next_branch": "NEXT:STEP-0-6-2",
+  "replay_hash": "5de0cb0d44b4c3cdbfea0b3ac93e2670e2ec151355578311f90c18b1cfdb2c8c",
+  "summarized_utc": "2026-05-27T05:28:30.455632Z"
+}

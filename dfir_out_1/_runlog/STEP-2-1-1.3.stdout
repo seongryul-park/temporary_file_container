@@ -1,0 +1,6 @@
+PRESENT: Security
+PRESENT: System
+PRESENT: Application
+PRESENT: Microsoft-Windows-PowerShell%4Operational
+ABSENT: Microsoft-Windows-Sysmon%4Operational
+PRESENT: Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational

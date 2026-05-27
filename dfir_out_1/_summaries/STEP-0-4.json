@@ -1,14 +1,18 @@
 {
   "step_id": "STEP-0-4",
   "phase": 0,
-  "execution_status": "halted",
-  "started_utc": "2026-05-27T05:06:34.555561Z",
-  "finished_utc": "2026-05-27T05:06:37.978843Z",
-  "artifacts_generated": [],
+  "execution_status": "degraded",
+  "started_utc": "2026-05-27T05:28:26.256019Z",
+  "finished_utc": "2026-05-27T05:28:26.828142Z",
+  "artifacts_generated": [
+    "mount_verify"
+  ],
   "findings_generated": [],
   "suspicious_entities": [],
-  "degradation_flags": [],
-  "next_branch": "HALT:HALT_OUTPUT",
-  "replay_hash": "03eb478a5166712d20f8569ba73fd67f6d0eb6137183c49f781042df1aa8dcb0",
-  "summarized_utc": "2026-05-27T05:06:37.978980Z"
+  "degradation_flags": [
+    "cmd:1:exit=12"
+  ],
+  "next_branch": "NEXT:STEP-0-5",
+  "replay_hash": "590ae42b8d5ce3d06054df57421e85722c37ef996c7778e89a1b7fd872577b2c",
+  "summarized_utc": "2026-05-27T05:28:26.828411Z"
 }

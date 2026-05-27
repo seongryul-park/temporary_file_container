@@ -1,0 +1,16 @@
+{
+  "step_id": "STEP-0-5",
+  "phase": 0,
+  "execution_status": "completed",
+  "started_utc": "2026-05-27T05:28:26.849213Z",
+  "finished_utc": "2026-05-27T05:28:27.577326Z",
+  "artifacts_generated": [
+    "fsstat_output"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [],
+  "next_branch": "NEXT:STEP-0-6-1",
+  "replay_hash": "8e67e4b7f35d66d4508271662f7c56d96aed6da9c627b59738a65f6b5872de9c",
+  "summarized_utc": "2026-05-27T05:28:27.577536Z"
+}
