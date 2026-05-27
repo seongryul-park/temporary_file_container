@@ -2,8 +2,8 @@
   "step_id": "STEP-0-3",
   "phase": 0,
   "execution_status": "completed",
-  "started_utc": "2026-05-27T05:28:25.551343Z",
-  "finished_utc": "2026-05-27T05:28:26.230337Z",
+  "started_utc": "2026-05-27T06:25:54.226722Z",
+  "finished_utc": "2026-05-27T06:25:54.772464Z",
   "artifacts_generated": [
     "partitions_raw",
     "fsstat_wholedisk_probe"
@@ -13,5 +13,5 @@
   "degradation_flags": [],
   "next_branch": "NEXT:STEP-0-4",
   "replay_hash": "37ac106c57e0e2a9290c168df804af36fba6d8037e22374606292eccf3256d64",
-  "summarized_utc": "2026-05-27T05:28:26.230514Z"
+  "summarized_utc": "2026-05-27T06:25:54.772738Z"
 }

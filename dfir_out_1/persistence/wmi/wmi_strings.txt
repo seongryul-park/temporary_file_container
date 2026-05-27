@@ -1,0 +1,137 @@
+__EventConsumerProviderRegistration
+__EventConsumer
+__EventFilter
+__FilterToConsumerBinding
+ref:__EventConsumer
+ref:__EventFilter
+ref:__EventConsumer
+__EventConsumerProviderCacheControl
+__EventConsumerProviderCacheControl
+__EventConsumer
+NTEventLogEventConsumer
+LogFileEventConsumer
+__EventConsumerProviderRegistration
+LogFileEventConsumer
+\\.\root\default:__Win32Provider.Name="LogFileEventConsumer"
+CommandLineEventConsumer
+__EventConsumerProviderRegistration
+CommandLineEventConsumer
+\\.\root\default:__Win32Provider.Name="CommandLineEventConsumer"
+NTEventLogEventConsumer
+__EventConsumerProviderRegistration
+NTEventLogEventConsumer
+\\.\root\default:__Win32Provider.Name="NTEventLogEventConsumer"
+__EventConsumer
+LogFileEventConsumer
+__EventConsumer
+LogFileEventConsumer
+__EventConsumer
+SMTPEventConsumer
+SMTPEventConsumer
+__EventConsumer
+CommandLineEventConsumer
+CommandLineTemplate
+__EventConsumer
+NTEventLogEventConsumer
+__EventConsumer
+LogFileEventConsumer
+__EventConsumer
+CommandLineEventConsumer
+CommandLineTemplate
+__EventConsumer
+NTEventLogEventConsumer
+NTEventLogEventConsumer
+__EventFilter
+__FilterToConsumerBinding
+NTEventLogEventConsumer.Name="SCM Event Log Consumer"
+__EventFilter.Name="SCM Event Log Filter"
+__EventConsumer
+SMTPEventConsumer
+SMTPEventConsumer
+__EventConsumerProviderRegistration
+SMTPEventConsumer
+\\.\root\default:__Win32Provider.Name="SMTPEventConsumer"
+__EventConsumer
+SMTPEventConsumer
+A unique name identifying this instance of the SMTPEventConsumer.
+__EventConsumer
+LogFileEventConsumer
+__EventConsumer
+CommandLineEventConsumer
+CommandLineTemplate
+__EventConsumerProviderRegistration
+SMTPEventConsumer
+\\.\root\subscription:__Win32Provider.Name="SMTPEventConsumer"
+__EventConsumer
+SMTPEventConsumer
+A unique name identifying this instance of the SMTPEventConsumer.
+__EventConsumer
+ActiveScriptEventConsumer
+ScriptText
+ActiveScriptEventConsumer
+__EventConsumerProviderRegistration
+ActiveScriptEventConsumer
+\\.\root\subscription:__Win32Provider.Name="ActiveScriptEventConsumer"
+__EventConsumer
+ActiveScriptEventConsumer
+Filename of a script file to be run, note that this is intended as an alternative to specifying the text of the script in ScriptText.  Results are undefined if both properties are assigned values.
+ScriptText
+RestrictedSitesZoneAllowActiveScripting
+RestrictedSitesZoneAllowActiveScripting
+RestrictedSitesZoneAllowActiveScripting
+RestrictedSitesZoneAllowActiveScripting
+CommandLineEventConsumer
+CommandLineTemplate
+__EventConsumer
+NTEventLogEventConsumer
+LogFileEventConsumer
+__EventConsumerProviderRegistration
+LogFileEventConsumer
+\\.\root\subscription:__Win32Provider.Name="LogFileEventConsumer"
+CommandLineEventConsumer
+__EventConsumerProviderRegistration
+CommandLineEventConsumer
+\\.\root\subscription:__Win32Provider.Name="CommandLineEventConsumer"
+NTEventLogEventConsumer
+__EventConsumerProviderRegistration
+NTEventLogEventConsumer
+\\.\root\subscription:__Win32Provider.Name="NTEventLogEventConsumer"
+ref:__EventConsumer
+ref:__EventConsumer
+The ProviderOperation_FindConsumer property indicates the number of calls to IWbemEventConsumerProvider :: FindConsumer.
+The ProviderOperation_ValidateSubscription property indicates the number of calls to IWbemEventConsumerProviderEx :: ValidateSubscription.
+The ProviderOperation_FindConsumer property indicates the number of calls to IWbemEventConsumerProvider :: FindConsumer.
+The ProviderOperation_ValidateSubscription property indicates the number of calls to IWbemEventConsumerProviderEx :: ValidateSubscription.
+__EventConsumer
+CommandLineEventConsumer
+CommandLineTemplate
+__EventConsumer
+NTEventLogEventConsumer
+LogFileEventConsumer
+__EventConsumerProviderRegistration
+LogFileEventConsumer
+\\.\root\subscription:__Win32Provider.Name="LogFileEventConsumer"
+CommandLineEventConsumer
+__EventConsumerProviderRegistration
+CommandLineEventConsumer
+\\.\root\subscription:__Win32Provider.Name="CommandLineEventConsumer"
+NTEventLogEventConsumer
+__EventConsumerProviderRegistration
+NTEventLogEventConsumer
+\\.\root\subscription:__Win32Provider.Name="NTEventLogEventConsumer"
+__EventConsumer
+ActiveScriptEventConsumer
+ScriptText
+ActiveScriptEventConsumer
+__EventConsumerProviderRegistration
+ActiveScriptEventConsumer
+\\.\root\default:__Win32Provider.Name="ActiveScriptEventConsumer"
+__EventConsumer
+ActiveScriptEventConsumer
+Filename of a script file to be run, note that this is intended as an alternative to specifying the text of the script in ScriptText.  Results are undefined if both properties are assigned values.
+ScriptText
+The ProviderOperation_FindConsumer property indicates the number of calls to IWbemEventConsumerProvider :: FindConsumer.
+The ProviderOperation_ValidateSubscription property indicates the number of calls to IWbemEventConsumerProviderEx :: ValidateSubscription.
+The ProviderOperation_FindConsumer property indicates the number of calls to IWbemEventConsumerProvider :: FindConsumer.
+The ProviderOperation_ValidateSubscription property indicates the number of calls to IWbemEventConsumerProviderEx :: ValidateSubscription.
+The ProviderOperation_ValidateSubscription property indicates the number of calls to IWbemEventConsumerProviderEx :: ValidateSubscription.

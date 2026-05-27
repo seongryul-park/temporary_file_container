@@ -1,0 +1,17 @@
+{
+  "step_id": "STEP-2-1-2",
+  "phase": 2,
+  "execution_status": "completed",
+  "started_utc": "2026-05-27T06:27:03.760797Z",
+  "finished_utc": "2026-05-27T06:27:22.553853Z",
+  "artifacts_generated": [
+    "evtx_json_inventory",
+    "evtx_json_dir_listing"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [],
+  "next_branch": "NEXT:STEP-2-1-3",
+  "replay_hash": "ce6f5d911296eb1938694bad56f36d1e4a57346d6a5eb43b25fa95b2cee3c1dd",
+  "summarized_utc": "2026-05-27T06:27:22.554212Z"
+}

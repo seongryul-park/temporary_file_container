@@ -1,0 +1,2 @@
+bash: command substitution: line 1: syntax error near unexpected token `'/home/sansforensics/Desktop/temporary_file_container/dfir_out_1''
+bash: command substitution: line 1: `{os.path.abspath('/home/sansforensics/Desktop/temporary_file_container/dfir_out_1')}'

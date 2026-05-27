@@ -1,0 +1,5 @@
+/mnt/image/Users/fredr/AppData/Local/Temp/Temp1_StarFury.zip
+/mnt/image/Users/fredr/AppData/Local/Temp/Temp2_StarFury.zip
+/mnt/image/Users/fredr/AppData/Local/Temp/Temp3_StarFury.zip
+/mnt/image/Users/fredr/Downloads/SDelete.zip
+/mnt/image/Users/fredr/Downloads/WorkingFiles.zip

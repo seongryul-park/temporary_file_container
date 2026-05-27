@@ -1,0 +1,17 @@
+{
+  "step_id": "STEP-5-1",
+  "phase": 5,
+  "execution_status": "completed",
+  "started_utc": "2026-05-27T06:28:22.205169Z",
+  "finished_utc": "2026-05-27T06:28:22.260972Z",
+  "artifacts_generated": [
+    "timeline_incident_summary",
+    "timeline_incident_csv"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [],
+  "next_branch": "NEXT:STEP-5-2",
+  "replay_hash": "fee5a3a78f3686a5e711795f7ffabf8e5554f5eca249ef3ee0af9f352b8cedbe",
+  "summarized_utc": "2026-05-27T06:28:22.261489Z"
+}

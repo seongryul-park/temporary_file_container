@@ -1,0 +1,12 @@
+{
+  "run_id": "5c045c7b-9700-421e-9178-61a4c35e4eb6",
+  "written_utc": "2026-05-27T06:28:22.201706Z",
+  "phase": 4,
+  "state_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_checkpoints/state_phase4.json",
+  "state_sha256": "12e7d5f68247aded3b54abda3dfd34dd4eae11d038b31e43ffdbf59e5796a1e7",
+  "artifacts_registry_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_registry/artifacts.jsonl",
+  "artifacts_registry_sha256": "1f93a12e51d909c2e63cfffec304809fa858d74b5264acf83e997e21197d2109",
+  "findings_registry_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_registry/findings.jsonl",
+  "findings_registry_sha256": "",
+  "resume_step": "STEP-5-1"
+}

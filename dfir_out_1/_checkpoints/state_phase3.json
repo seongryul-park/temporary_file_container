@@ -1,0 +1,1797 @@
+{
+  "run_id": "5c045c7b-9700-421e-9178-61a4c35e4eb6",
+  "started_utc": "2026-05-27T06:17:43.201985Z",
+  "case_id": "CASE-001",
+  "operator": "S.Park",
+  "out_dir": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1",
+  "tool_versions": {},
+  "evidence": {
+    "e01_path": "/home/sansforensics/case/rocba-cdrive.e01",
+    "e01_size_bytes": null,
+    "e01_sha256": null,
+    "e01_md5": null,
+    "cocl_md5": null,
+    "cocl_sha256": null,
+    "quality": "unverified",
+    "ewfmount_handle": "/mnt/ewf/ewf1",
+    "ewfinfo_format": null
+  },
+  "partitions": [
+    {
+      "slot": 0,
+      "offset_bytes": 0,
+      "length_bytes": 0,
+      "fs": "ntfs",
+      "mountpoint": "/mnt/image",
+      "os": "windows",
+      "profile": {
+        "hostname": null,
+        "timezone": null,
+        "os_version": null,
+        "accounts": []
+      }
+    }
+  ],
+  "incident_window": {
+    "start_utc": null,
+    "end_utc": null,
+    "source": "none"
+  },
+  "steps": {
+    "STEP-0-1-1": {
+      "step_id": "STEP-0-1-1",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:17:43.230549Z",
+      "finished_utc": "2026-05-27T06:17:43.243708Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "e01_listing"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "test",
+            "-r",
+            "/home/sansforensics/case/rocba-cdrive.e01"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:17:43.230828Z",
+          "finished_utc": "2026-05-27T06:17:43.237027Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-1.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-1.0.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "ls",
+            "-lh",
+            "/home/sansforensics/case/rocba-cdrive.e01"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:17:43.237394Z",
+          "finished_utc": "2026-05-27T06:17:43.242992Z",
+          "exit_code": 0,
+          "stdout_sha256": "51f94552fd093cd105c8d7b387b259137639afbeaefd803045b1e2c4f953215e",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-1.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-1.1.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-1-2": {
+      "step_id": "STEP-0-1-2",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:17:43.250531Z",
+      "finished_utc": "2026-05-27T06:25:53.777907Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "e01_sha256",
+        "e01_md5",
+        "ewfverify_output"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "sha256sum",
+            "/home/sansforensics/case/rocba-cdrive.e01"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:17:43.250795Z",
+          "finished_utc": "2026-05-27T06:19:16.751986Z",
+          "exit_code": 0,
+          "stdout_sha256": "fa1efcffc6e6d498be145d39260de77763996e9ce24cf98540cd77c9f8bb6fb6",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.0.stderr",
+          "timeout_seconds": 3600,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "md5sum",
+            "/home/sansforensics/case/rocba-cdrive.e01"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:19:16.752926Z",
+          "finished_utc": "2026-05-27T06:20:36.759466Z",
+          "exit_code": 0,
+          "stdout_sha256": "ecccb8c3f3359e8ed40e48f5d70db31c7e61ce8250f355f79fc38143cd8a3cc3",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.1.stderr",
+          "timeout_seconds": 3600,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "ewfverify",
+            "/home/sansforensics/case/rocba-cdrive.e01"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:20:36.760058Z",
+          "finished_utc": "2026-05-27T06:25:53.775730Z",
+          "exit_code": 0,
+          "stdout_sha256": "92de34a869fbfb08d804e1d8db475301fea09690a4bd0721383fd74971f6aec1",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.2.stderr",
+          "timeout_seconds": 7200,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-1-3": {
+      "step_id": "STEP-0-1-3",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:25:53.785298Z",
+      "finished_utc": "2026-05-27T06:25:53.815739Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "coc_check_sha256",
+        "coc_check_md5"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -oP '^[0-9a-f]{64}' \"/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/STEP-0-1-2.0.stdout\" 2>/dev/null || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:53.786030Z",
+          "finished_utc": "2026-05-27T06:25:53.804509Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-3.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-3.0.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -oP '^[0-9a-f]{32}' \"/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.1.stdout\" 2>/dev/null || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:53.804825Z",
+          "finished_utc": "2026-05-27T06:25:53.814789Z",
+          "exit_code": 0,
+          "stdout_sha256": "82ad2b8c48855a2269e3fa15f1de9999e4912dbfffab933ebb1ef2f7d925407f",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-3.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-3.1.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-2": {
+      "step_id": "STEP-0-2",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:25:53.824858Z",
+      "finished_utc": "2026-05-27T06:25:54.213140Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "ewfmount_listing",
+        "ewf_handle_stat"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "fusermount -u /mnt/ewf 2>/dev/null || true; mkdir -p /mnt/ewf"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:53.825439Z",
+          "finished_utc": "2026-05-27T06:25:53.862196Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.0.stderr",
+          "timeout_seconds": 15,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "ewfmount",
+            "/home/sansforensics/case/rocba-cdrive.e01",
+            "/mnt/ewf/"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:53.863338Z",
+          "finished_utc": "2026-05-27T06:25:54.133476Z",
+          "exit_code": 0,
+          "stdout_sha256": "cd506534cc7aa757786c8a4b4c66098d25294985dd0dae59007b4eb2ab2e6117",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.1.stderr",
+          "timeout_seconds": 120,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "ls",
+            "-lh",
+            "/mnt/ewf/"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.137790Z",
+          "finished_utc": "2026-05-27T06:25:54.175506Z",
+          "exit_code": 0,
+          "stdout_sha256": "54bbdff7f1614fab6d110de45b4f800e142ca3903b822c90408551a9b45fd12c",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.2.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "test -r /mnt/ewf/ewf1 && stat --printf='size=%s\\n' /mnt/ewf/ewf1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.175955Z",
+          "finished_utc": "2026-05-27T06:25:54.212068Z",
+          "exit_code": 0,
+          "stdout_sha256": "4b689afa478b7c42b7b7fb013b2601cf692d7cfa279303cb0cf839a8a8d9c538",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.3.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-3": {
+      "step_id": "STEP-0-3",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:25:54.226722Z",
+      "finished_utc": "2026-05-27T06:25:54.772464Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "partitions_raw",
+        "fsstat_wholedisk_probe"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "command -v mmls"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.227045Z",
+          "finished_utc": "2026-05-27T06:25:54.232407Z",
+          "exit_code": 0,
+          "stdout_sha256": "af521faa4df7ca5ceb60e6ecac543589cc8517c48fbe3f86575a015788ed6d29",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.0.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "command -v fsstat"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.232992Z",
+          "finished_utc": "2026-05-27T06:25:54.238038Z",
+          "exit_code": 0,
+          "stdout_sha256": "aeadaeb7197863c700cb6d8556815f175c36950cae006d9561c563df49b241f5",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.1.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "test",
+            "-r",
+            "/mnt/ewf/ewf1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.238524Z",
+          "finished_utc": "2026-05-27T06:25:54.257993Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.2.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "mmls",
+            "/mnt/ewf/ewf1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.258809Z",
+          "finished_utc": "2026-05-27T06:25:54.329892Z",
+          "exit_code": 1,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.3.stderr",
+          "timeout_seconds": 120,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "fsstat",
+            "/mnt/ewf/ewf1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.330758Z",
+          "finished_utc": "2026-05-27T06:25:54.712411Z",
+          "exit_code": 0,
+          "stdout_sha256": "5b963eba0121a84862fb7d60831de553f2eeb9004249ac3d948b45b164ef2245",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.4.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.4.stderr",
+          "timeout_seconds": 120,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "set -e; mmls_ok=0; fsstat_ok=0; if grep -hE '^[[:space:]]*[0-9]+:' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.*.stdout 2>/dev/null | grep -vE 'Meta|-{3,}' | grep -q .; then mmls_ok=1; fi; if grep -qiE 'File System Type[[:space:]]*(Label[[:space:]]*)?:' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.*.stdout 2>/dev/null; then fsstat_ok=1; fi; if [ \"$mmls_ok\" -eq 1 ] || [ \"$fsstat_ok\" -eq 1 ]; then exit 0; fi; echo 'STEP-0-3 ASSERTION FAILED: mmls produced no parseable partitions AND fsstat at offset 0 did not detect a filesystem. Image is likely encrypted, corrupted, or in an unsupported container format.' >&2; exit 1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.712883Z",
+          "finished_utc": "2026-05-27T06:25:54.768639Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.5.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.5.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-4": {
+      "step_id": "STEP-0-4",
+      "status": "degraded",
+      "started_utc": "2026-05-27T06:25:54.783593Z",
+      "finished_utc": "2026-05-27T06:25:55.178705Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "mount_verify"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [
+        "cmd:1:exit=12"
+      ],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "umount /mnt/image 2>/dev/null || true; mkdir -p /mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.784638Z",
+          "finished_utc": "2026-05-27T06:25:54.822561Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.0.stderr",
+          "timeout_seconds": 15,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "mountpoint -q /mnt/image && exit 0; mount -t ntfs-3g -o ro,noload,force,show_sys_files,streams_interface=windows,offset=0 /mnt/ewf/ewf1 /mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.822913Z",
+          "finished_utc": "2026-05-27T06:25:54.890341Z",
+          "exit_code": 12,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "dac5272cb207d0e5dcb0984e6b0f401a809a4f8b132c065bef5477f43092eee3",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.1.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "mountpoint -q /mnt/image && exit 0; mount -t ntfs3 -o ro,noexec,loop,offset=0 /mnt/ewf/ewf1 /mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:54.891500Z",
+          "finished_utc": "2026-05-27T06:25:55.064378Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.2.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "mountpoint -q /mnt/image && exit 0; mount -o ro,noexec,loop,offset=0 /mnt/ewf/ewf1 /mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.064863Z",
+          "finished_utc": "2026-05-27T06:25:55.102444Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.3.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "mountpoint -q /mnt/image && exit 0; mount -t ext4 -o ro,noexec,loop,offset=0 /mnt/ewf/ewf1 /mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.102951Z",
+          "finished_utc": "2026-05-27T06:25:55.140335Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.4.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.4.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "mountpoint -q /mnt/image && mount | grep '/mnt/image' && ls /mnt/image/ | head -20"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.140999Z",
+          "finished_utc": "2026-05-27T06:25:55.177217Z",
+          "exit_code": 0,
+          "stdout_sha256": "6c030792bbad8680c20e3e85a98e41c97840db21305bf8efc55caa6aec70b0c7",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.5.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.5.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-5": {
+      "step_id": "STEP-0-5",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:25:55.190827Z",
+      "finished_utc": "2026-05-27T06:25:55.393263Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "fsstat_output"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "command -v fsstat"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.191547Z",
+          "finished_utc": "2026-05-27T06:25:55.196403Z",
+          "exit_code": 0,
+          "stdout_sha256": "aeadaeb7197863c700cb6d8556815f175c36950cae006d9561c563df49b241f5",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.0.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "test",
+            "-r",
+            "/mnt/ewf/ewf1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.196758Z",
+          "finished_utc": "2026-05-27T06:25:55.214409Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.1.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "fsstat",
+            "-o",
+            "0",
+            "/mnt/ewf/ewf1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.214808Z",
+          "finished_utc": "2026-05-27T06:25:55.382666Z",
+          "exit_code": 0,
+          "stdout_sha256": "5b963eba0121a84862fb7d60831de553f2eeb9004249ac3d948b45b164ef2245",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.2.stderr",
+          "timeout_seconds": 120,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "cp /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.2.stdout /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/fsstat_main.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.383106Z",
+          "finished_utc": "2026-05-27T06:25:55.391810Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-5.3.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-6-1": {
+      "step_id": "STEP-0-6-1",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:25:55.408158Z",
+      "finished_utc": "2026-05-27T06:25:56.931256Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "rr_compname",
+        "rr_timezone",
+        "rr_samparse",
+        "registry_listing",
+        "registry_system_hive",
+        "registry_sam_hive"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry && sudo -n cp '/mnt/image/Windows/System32/config/SYSTEM' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SYSTEM 2>/dev/null || sudo -n cp '/mnt/image/WINDOWS/system32/config/SYSTEM' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SYSTEM 2>/dev/null || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.408791Z",
+          "finished_utc": "2026-05-27T06:25:55.832928Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.0.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "sudo -n cp '/mnt/image/Windows/System32/config/SAM' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SAM 2>/dev/null || true; sudo -n cp '/mnt/image/Windows/System32/config/SOFTWARE' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SOFTWARE 2>/dev/null || true; sudo -n cp '/mnt/image/Windows/System32/config/SECURITY' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SECURITY 2>/dev/null || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:55.833298Z",
+          "finished_utc": "2026-05-27T06:25:56.817086Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.1.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "test",
+            "-s",
+            "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SYSTEM"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:56.817679Z",
+          "finished_utc": "2026-05-27T06:25:56.822880Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.2.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "which regripper && regripper -r /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SYSTEM -p compname > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/rr_compname.txt 2>&1 || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:56.823351Z",
+          "finished_utc": "2026-05-27T06:25:56.833305Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.3.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "which regripper && regripper -r /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SYSTEM -p timezone > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/rr_timezone.txt 2>&1 || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:56.833932Z",
+          "finished_utc": "2026-05-27T06:25:56.842636Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.4.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.4.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "which regripper && regripper -r /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SAM -p samparse > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/rr_samparse.txt 2>&1 || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:56.842973Z",
+          "finished_utc": "2026-05-27T06:25:56.852343Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.5.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.5.stderr",
+          "timeout_seconds": 120,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "ls -lh /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:56.853370Z",
+          "finished_utc": "2026-05-27T06:25:56.862389Z",
+          "exit_code": 0,
+          "stdout_sha256": "1e5ec377c764ab13e1cca7066acc2747ca927ed421b22d3cb87e103739e69f3d",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.6.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-6-1.6.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-6-2": {
+      "step_id": "STEP-0-6-2",
+      "status": "skipped",
+      "started_utc": "2026-05-27T06:25:56.945741Z",
+      "finished_utc": "2026-05-27T06:25:56.945741Z",
+      "retries": 0,
+      "produced_artifacts": [],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-1-1-1": {
+      "step_id": "STEP-1-1-1",
+      "status": "degraded",
+      "started_utc": "2026-05-27T06:25:56.955745Z",
+      "finished_utc": "2026-05-27T06:25:56.987860Z",
+      "retries": 0,
+      "produced_artifacts": [],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [
+        "command_failed:command 1 exited 1",
+        "missing_artifact:bodyfile_txt"
+      ],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/timeline"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:56.956768Z",
+          "finished_utc": "2026-05-27T06:25:56.965814Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-1-1.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-1-1.0.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "fls",
+            "-r",
+            "-m",
+            "/",
+            "-o",
+            "0",
+            "/mnt/ewf/ewf1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:56.966643Z",
+          "finished_utc": "2026-05-27T06:25:56.986723Z",
+          "exit_code": 1,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "7f9804129243e602ecdfa51d59fb57df765fea2e91d2998df1599a4f07865879",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-1-1.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-1-1.1.stderr",
+          "timeout_seconds": 7200,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": "command 1 exited 1"
+    },
+    "STEP-1-4-3": {
+      "step_id": "STEP-1-4-3",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:25:56.998799Z",
+      "finished_utc": "2026-05-27T06:26:32.199546Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "recent_files_counts",
+        "recent_90d_txt",
+        "recent_7d_txt",
+        "recent_executables_txt"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/recent_files && find /mnt/image -mtime -90 -type f 2>/dev/null | head -10000 > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/recent_files/recent_90d.txt || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:25:56.999395Z",
+          "finished_utc": "2026-05-27T06:26:24.813557Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-4-3.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-4-3.0.stderr",
+          "timeout_seconds": 600,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "find /mnt/image -mtime -7 -type f 2>/dev/null | head -5000 > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/recent_files/recent_7d.txt || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:26:24.813967Z",
+          "finished_utc": "2026-05-27T06:26:30.583443Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-4-3.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-4-3.1.stderr",
+          "timeout_seconds": 300,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "find /mnt/image \\( -name '*.exe' -o -name '*.dll' -o -name '*.ps1' -o -name '*.bat' -o -name '*.vbs' -o -name '*.sh' -o -name '*.py' \\) -mtime -90 2>/dev/null > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/recent_files/recent_executables_90d.txt 2>&1 || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:26:30.583915Z",
+          "finished_utc": "2026-05-27T06:26:32.144454Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-4-3.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-4-3.2.stderr",
+          "timeout_seconds": 600,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "wc -l /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/recent_files/*.txt 2>/dev/null && echo 'sweep complete'"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:26:32.145088Z",
+          "finished_utc": "2026-05-27T06:26:32.197764Z",
+          "exit_code": 0,
+          "stdout_sha256": "6f670ea44134c6f1f7354a6a924af56729e95042eaaefd308c17a982fc126103",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-4-3.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-1-4-3.3.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-2-1-1": {
+      "step_id": "STEP-2-1-1",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:26:32.212012Z",
+      "finished_utc": "2026-05-27T06:27:03.752062Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "evtx_inventory",
+        "evtx_copy_count",
+        "evtx_channel_status",
+        "evtx_inventory_txt",
+        "evtx_security",
+        "evtx_system"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx && find /mnt/image/Windows/System32/winevt/Logs/ -name '*.evtx' 2>/dev/null > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx/evtx_inventory.txt || find /mnt/image/WINDOWS/system32/winevt/Logs/ -name '*.evtx' 2>/dev/null > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx/evtx_inventory.txt || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:26:32.212729Z",
+          "finished_utc": "2026-05-27T06:26:32.231691Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-1.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-1.0.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "while IFS= read -r f; do cp \"$f\" /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx/ 2>/dev/null || true; done < /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx/evtx_inventory.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:26:32.232739Z",
+          "finished_utc": "2026-05-27T06:27:03.636566Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-1.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-1.1.stderr",
+          "timeout_seconds": 300,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "ls -lh /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx/*.evtx 2>/dev/null | wc -l && echo 'EVTX files copied'"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:03.639585Z",
+          "finished_utc": "2026-05-27T06:27:03.657589Z",
+          "exit_code": 0,
+          "stdout_sha256": "57760f971daa4809d85be02b6fe4a0996441a54395855052f9b05a207828779f",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-1.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-1.2.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "for ch in Security System Application 'Microsoft-Windows-PowerShell%4Operational' 'Microsoft-Windows-Sysmon%4Operational' 'Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational'; do test -f \"/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx/${ch}.evtx\" && echo \"PRESENT: $ch\" || echo \"ABSENT: $ch\"; done"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:03.658113Z",
+          "finished_utc": "2026-05-27T06:27:03.664550Z",
+          "exit_code": 0,
+          "stdout_sha256": "f50693dcfa904b5c1842857ebe2e8e688898671eb722ba1995706f3055b5cd6c",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-1.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-1.3.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-2-1-2": {
+      "step_id": "STEP-2-1-2",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:27:03.760797Z",
+      "finished_utc": "2026-05-27T06:27:22.553853Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "evtx_json_inventory",
+        "evtx_json_dir_listing"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json && for f in /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx/*.evtx; do base=$(basename $f .evtx); evtx_dump.py -t json $f > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/${base}.jsonl 2>/dev/null || python3 -m evtx $f --format jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/${base}.jsonl 2>/dev/null || echo 'dump_failed' > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/${base}.jsonl; echo \"dumped: $base\"; done"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:03.761507Z",
+          "finished_utc": "2026-05-27T06:27:22.518078Z",
+          "exit_code": 0,
+          "stdout_sha256": "3ccb8d5b23dcbdfcda25fbce6d491013ccb7e3afdbb94a4605446d8880f5cdc2",
+          "stderr_sha256": "6d561e2945a694ad57dabbdae786948b3ac5198e37101b26aabcf5244ce2e67c",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-2.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-2.0.stderr",
+          "timeout_seconds": 1800,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "ls -lh /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/*.jsonl 2>/dev/null | head -20 && wc -l /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/*.jsonl 2>/dev/null | tail -1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.519076Z",
+          "finished_utc": "2026-05-27T06:27:22.536367Z",
+          "exit_code": 0,
+          "stdout_sha256": "c867f55cff54147041061fbe26bc0cbc6b3bcfbfced9b00350aeec4d8c2353c2",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-2.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-2.1.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-2-1-3": {
+      "step_id": "STEP-2-1-3",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:27:22.566453Z",
+      "finished_utc": "2026-05-27T06:27:22.702703Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "evtx_filtered_counts",
+        "evtx_4624_jsonl",
+        "evtx_4625_jsonl",
+        "sysmon_1_jsonl",
+        "sysmon_3_jsonl"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered && jq -c 'select(.Event.System.EventID == 4624)' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Security.jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Security_4624_logons.jsonl 2>/dev/null || grep -F '\"EventID\":4624' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Security.jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Security_4624_logons.jsonl 2>/dev/null || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Security_4624_logons.jsonl"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.567033Z",
+          "finished_utc": "2026-05-27T06:27:22.634878Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-3.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-3.0.stderr",
+          "timeout_seconds": 120,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "jq -c 'select(.Event.System.EventID == 4625)' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Security.jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Security_4625_failed_logons.jsonl 2>/dev/null || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Security_4625_failed_logons.jsonl && jq -c 'select(.Event.System.EventID == 4672)' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Security.jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Security_4672_priv.jsonl 2>/dev/null || true && jq -c 'select(.Event.System.EventID == 4720)' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Security.jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Security_4720_account_create.jsonl 2>/dev/null || true && jq -c 'select(.Event.System.EventID == 4698)' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Security.jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Security_4698_task_create.jsonl 2>/dev/null || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.635737Z",
+          "finished_utc": "2026-05-27T06:27:22.670966Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-3.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-3.1.stderr",
+          "timeout_seconds": 300,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "test -f /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Microsoft-Windows-Sysmon%4Operational.jsonl && jq -c 'select(.Event.System.EventID == 1)' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Microsoft-Windows-Sysmon%4Operational.jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Sysmon_1_process_create.jsonl 2>/dev/null && jq -c 'select(.Event.System.EventID == 3)' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json/Microsoft-Windows-Sysmon%4Operational.jsonl > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Sysmon_3_network.jsonl 2>/dev/null || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Sysmon_1_process_create.jsonl /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/Sysmon_3_network.jsonl"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.671418Z",
+          "finished_utc": "2026-05-27T06:27:22.680776Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-3.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-3.2.stderr",
+          "timeout_seconds": 300,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -c '' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_filtered/*.jsonl 2>/dev/null | sort -t: -k2 -rn | head -20"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.681608Z",
+          "finished_utc": "2026-05-27T06:27:22.701369Z",
+          "exit_code": 0,
+          "stdout_sha256": "91f70879b0026e182fa9947c446bb6976d8f541bac015ec4983a44c2dad389dd",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-3.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-1-3.3.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-2-2": {
+      "step_id": "STEP-2-2",
+      "status": "skipped",
+      "started_utc": "2026-05-27T06:27:22.718212Z",
+      "finished_utc": "2026-05-27T06:27:22.718212Z",
+      "retries": 0,
+      "produced_artifacts": [],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-2-3": {
+      "step_id": "STEP-2-3",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:27:22.730740Z",
+      "finished_utc": "2026-05-27T06:27:22.823709Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "web_post_log",
+        "web_exec_200_log",
+        "web_suspicious_log",
+        "web_log_counts"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs && find /mnt/image/var/log/apache2 /mnt/image/var/log/httpd /mnt/image/var/log/nginx /mnt/image/Windows/System32/LogFiles/W3SVC1 -name '*.log' -o -name 'access.log' -o -name 'access_log' 2>/dev/null | head -20 > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_log_inventory.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_log_inventory.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.731446Z",
+          "finished_utc": "2026-05-27T06:27:22.749440Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.0.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "while IFS= read -r f; do [ -f \"$f\" ] && cat \"$f\" >> /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/apache_access_combined.log 2>/dev/null || true; done < /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_log_inventory.txt || true"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.750046Z",
+          "finished_utc": "2026-05-27T06:27:22.755234Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.1.stderr",
+          "timeout_seconds": 180,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep ' POST ' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/apache_access_combined.log 2>/dev/null > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_post.log || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_post.log"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.755818Z",
+          "finished_utc": "2026-05-27T06:27:22.773869Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.2.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -E '\" 200 ' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/apache_access_combined.log 2>/dev/null | grep -iE '\\.(php|asp|aspx|jsp|cgi|pl|sh|py)' > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_exec_200.log || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_exec_200.log"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.774547Z",
+          "finished_utc": "2026-05-27T06:27:22.792350Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.3.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -iE '(cmd=|exec=|system\\(|passthru|shell_exec|eval\\(|base64_decode|/bin/sh|powershell|wget|curl|certutil)' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/apache_access_combined.log 2>/dev/null > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_suspicious_patterns.log || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/web_suspicious_patterns.log"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.793027Z",
+          "finished_utc": "2026-05-27T06:27:22.810821Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.4.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.4.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "wc -l /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/web_logs/*.log 2>/dev/null"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.811398Z",
+          "finished_utc": "2026-05-27T06:27:22.821409Z",
+          "exit_code": 0,
+          "stdout_sha256": "44e998e815f605eef91be692b8e9d7cf1a12b7db7b2611366b1bd56ad419e477",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.5.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-2-3.5.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-3-1": {
+      "step_id": "STEP-3-1",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:27:22.836454Z",
+      "finished_utc": "2026-05-27T06:27:27.509042Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "suspect_file_count",
+        "suspicious_executables_windows_txt",
+        "suspicious_executables_linux_txt",
+        "double_extension_txt",
+        "all_suspects_txt"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection && find /mnt/image/Users /mnt/image/Windows/Temp /mnt/image/ProgramData /mnt/image/Windows/System32/Tasks 2>/dev/null \\( -name '*.exe' -o -name '*.dll' -o -name '*.ps1' -o -name '*.vbs' -o -name '*.bat' -o -name '*.cmd' -o -name '*.com' \\) -type f 2>/dev/null | head -5000 > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/suspicious_executables_windows.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/suspicious_executables_windows.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:22.837039Z",
+          "finished_utc": "2026-05-27T06:27:24.555668Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-1.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-1.0.stderr",
+          "timeout_seconds": 300,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "find /mnt/image/tmp /mnt/image/var/tmp /mnt/image/dev/shm /mnt/image/home 2>/dev/null \\( -name '*.sh' -o -name '*.py' -o -name '*.pl' -o -perm /111 \\) -type f 2>/dev/null | head -5000 > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/suspicious_executables_linux.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/suspicious_executables_linux.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:24.556456Z",
+          "finished_utc": "2026-05-27T06:27:24.573548Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-1.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-1.1.stderr",
+          "timeout_seconds": 300,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "find /mnt/image -name '*.*.*' -type f 2>/dev/null | grep -iE '\\.(exe|dll|com|scr|pif|bat|cmd)\\.(txt|pdf|doc|jpg|png|zip)$' | head -1000 > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/double_extension_files.txt 2>/dev/null || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/double_extension_files.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:24.574499Z",
+          "finished_utc": "2026-05-27T06:27:27.485876Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-1.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-1.2.stderr",
+          "timeout_seconds": 600,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "cat /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/suspicious_executables_windows.txt /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/suspicious_executables_linux.txt /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/double_extension_files.txt /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/recent_files/recent_executables_90d.txt 2>/dev/null | sort -u > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/all_suspects.txt && wc -l /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/all_suspects.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:27.486617Z",
+          "finished_utc": "2026-05-27T06:27:27.506295Z",
+          "exit_code": 0,
+          "stdout_sha256": "50351b0f7a5a68e8df891077f28752eaa6b827ab55e6915c7546672d0b6cf9d2",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-1.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-1.3.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-3-2": {
+      "step_id": "STEP-3-2",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:27:27.520642Z",
+      "finished_utc": "2026-05-27T06:27:43.319945Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "file_types_raw",
+        "extension_mismatches",
+        "file_types_txt",
+        "confirmed_executables_txt",
+        "extension_mismatches_txt"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures && while IFS= read -r f; do [ -f \"$f\" ] && echo \"$(file -b \"$f\") | $f\"; done < /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/all_suspects.txt 2>/dev/null > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/file_types.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/file_types.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:27.520972Z",
+          "finished_utc": "2026-05-27T06:27:43.216639Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-2.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-2.0.stderr",
+          "timeout_seconds": 600,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -v '^ASCII\\|^UTF-8\\|^empty' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/file_types.txt | grep -iE '(PE32|ELF|Mach-O|MS-DOS executable|script)' > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/confirmed_executables.txt 2>/dev/null || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/confirmed_executables.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:43.217755Z",
+          "finished_utc": "2026-05-27T06:27:43.234935Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-2.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-2.1.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "paste - - < /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/file_types.txt | awk -F'|' '{ext=tolower($2); type=tolower($1); if (ext ~ /\\.txt|\\.pdf|\\.doc|\\.jpg|\\.png/ && type ~ /pe32|elf|mach/) print \"MISMATCH: \"$0}' > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/extension_mismatches.txt 2>/dev/null || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/extension_mismatches.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:43.235638Z",
+          "finished_utc": "2026-05-27T06:27:43.306829Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-2.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-2.2.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "wc -l /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/*.txt 2>/dev/null"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:43.307824Z",
+          "finished_utc": "2026-05-27T06:27:43.316519Z",
+          "exit_code": 0,
+          "stdout_sha256": "c432b076758987a36270f8c64a62d4740e9f7a413d2ba76799a3d0f0f9927b2c",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-2.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-2.3.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-3-3": {
+      "step_id": "STEP-3-3",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:27:43.330256Z",
+      "finished_utc": "2026-05-27T06:27:59.889589Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "nsrl_comparison_result",
+        "exec_sha256sums_txt",
+        "unknown_exec_hashes_txt"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes && while IFS='|' read -r _ path; do f=$(echo \"$path\" | xargs); [ -f \"$f\" ] && sha256sum \"$f\" 2>/dev/null; done < /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/confirmed_executables.txt > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/exec_sha256sums.txt 2>/dev/null || sha256sum $(cat /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/all_suspects.txt 2>/dev/null | head -500) 2>/dev/null > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/exec_sha256sums.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/exec_sha256sums.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:43.330939Z",
+          "finished_utc": "2026-05-27T06:27:59.857875Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-3.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-3.0.stderr",
+          "timeout_seconds": 1800,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "NSRL=$(find /nsrl /opt/nsrl /cases/nsrl /usr/share/nsrl -name 'NSRLFile.txt' -o -name 'NSRLFile.txt.gz' 2>/dev/null | head -1); if [ -n \"$NSRL\" ]; then awk '{print $1}' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/exec_sha256sums.txt | sort > /tmp/run_hashes.txt; if echo \"$NSRL\" | grep -q gz; then zcat \"$NSRL\"; else cat \"$NSRL\"; fi | awk -F',' '{gsub(/\"/,\"\",$1); print tolower($1)}' | sort > /tmp/nsrl_hashes.txt; comm -23 /tmp/run_hashes.txt /tmp/nsrl_hashes.txt > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/unknown_exec_hashes.txt; echo \"NSRL comparison complete\"; else echo 'NSRL not found - all treated as unknown' > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/unknown_exec_hashes.txt; cat /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/exec_sha256sums.txt >> /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/unknown_exec_hashes.txt; fi"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:59.858294Z",
+          "finished_utc": "2026-05-27T06:27:59.876550Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-3.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-3.1.stderr",
+          "timeout_seconds": 600,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "wc -l /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/*.txt 2>/dev/null"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:59.876997Z",
+          "finished_utc": "2026-05-27T06:27:59.886691Z",
+          "exit_code": 0,
+          "stdout_sha256": "0cc6f1320bd11ddcbcf2ea7dccb2a733b531a9b4a6b9b88336cdf08548ba651c",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-3.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-3.2.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-3-4": {
+      "step_id": "STEP-3-4",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:27:59.900559Z",
+      "finished_utc": "2026-05-27T06:28:12.856047Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "unsigned_bad_sig",
+        "signature_results_txt",
+        "unsigned_or_bad_signature_txt"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures && which osslsigncode 2>/dev/null && echo 'osslsigncode available' || which pesign 2>/dev/null && echo 'pesign available' || echo 'no_sigcheck_tool' > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/sigcheck_tool.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:59.901377Z",
+          "finished_utc": "2026-05-27T06:27:59.938018Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-4.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-4.0.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "while IFS='|' read -r _ path; do f=$(echo \"$path\" | xargs); if [ -f \"$f\" ]; then result=$(osslsigncode verify -in \"$f\" 2>&1 | grep -E '(Verified OK|FAILED|not signed)' | head -1 || echo 'unknown'); echo \"$result | $f\"; fi; done < /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/confirmed_executables.txt > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/signature_results.txt 2>/dev/null || echo 'osslsigncode not available' > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/signature_results.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:27:59.938871Z",
+          "finished_utc": "2026-05-27T06:28:12.834016Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-4.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-4.1.stderr",
+          "timeout_seconds": 1800,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -v 'Verified OK' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/signature_results.txt 2>/dev/null | grep -v 'osslsigncode not available' > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/unsigned_or_bad_signature.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/unsigned_or_bad_signature.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:28:12.834777Z",
+          "finished_utc": "2026-05-27T06:28:12.843664Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-4.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-4.2.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "wc -l /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/unsigned_or_bad_signature.txt /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/signatures/signature_results.txt 2>/dev/null"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:28:12.844102Z",
+          "finished_utc": "2026-05-27T06:28:12.854186Z",
+          "exit_code": 0,
+          "stdout_sha256": "e235b4325ac558d3d347f77c654514f0c490db32125e575190f0c4a1b42f56c1",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-4.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-4.3.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-3-5": {
+      "step_id": "STEP-3-5",
+      "status": "completed",
+      "started_utc": "2026-05-27T06:28:12.869486Z",
+      "finished_utc": "2026-05-27T06:28:19.701804Z",
+      "retries": 0,
+      "produced_artifacts": [
+        "urls_found",
+        "ips_found",
+        "entropy_results",
+        "strings_all_txt",
+        "urls_found_txt",
+        "ips_found_txt",
+        "entropy_sections_txt"
+      ],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "mkdir -p /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings && awk '{print $2}' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/unknown_exec_hashes.txt 2>/dev/null | head -50 | while IFS= read -r f; do [ -f \"$f\" ] && strings -n 6 \"$f\" >> /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/strings_all.txt 2>/dev/null || true; done || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/strings_all.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:28:12.869742Z",
+          "finished_utc": "2026-05-27T06:28:12.985340Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.0.stderr",
+          "timeout_seconds": 1800,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -oE 'https?://[a-zA-Z0-9./_?=&%-]+' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/strings_all.txt 2>/dev/null | sort -u > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/urls_found.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/urls_found.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:28:12.985732Z",
+          "finished_utc": "2026-05-27T06:28:12.995490Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.1.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "grep -oE '([0-9]{1,3}\\.){3}[0-9]{1,3}' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/strings_all.txt 2>/dev/null | grep -vE '^(127\\.|192\\.168\\.|10\\.|172\\.(1[6-9]|2[0-9]|3[01])\\.)' | sort -u > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/ips_found.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/ips_found.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:28:12.995991Z",
+          "finished_utc": "2026-05-27T06:28:13.006455Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.2.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.2.stderr",
+          "timeout_seconds": 30,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "python3 -c \"\nimport math, os\ndef entropy(data):\n    if not data: return 0\n    freq = {}\n    for b in data: freq[b] = freq.get(b,0) + 1\n    n = len(data)\n    return -sum(c/n * math.log2(c/n) for c in freq.values())\nfor path in open('/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/hashes/unknown_exec_hashes.txt').read().splitlines()[:50]:\n    parts = path.split(None, 1)\n    if len(parts)<2: continue\n    f = parts[1].strip()\n    if not os.path.isfile(f): continue\n    try:\n        with open(f,'rb') as fh: data = fh.read()\n        e = entropy(data)\n        print(f'{e:.3f} {f}')\n    except: pass\n\" 2>/dev/null | sort -rn > /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/entropy_sections.txt || touch /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/entropy_sections.txt"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:28:13.007443Z",
+          "finished_utc": "2026-05-27T06:28:19.687147Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.3.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.3.stderr",
+          "timeout_seconds": 600,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "wc -l /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/malware_detection/strings/*.txt 2>/dev/null"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T06:28:19.687687Z",
+          "finished_utc": "2026-05-27T06:28:19.698459Z",
+          "exit_code": 0,
+          "stdout_sha256": "d60ca346c22801a294cbda058d94e84beb28c8989c4ed97faa5a1f39e15b6488",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.4.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-3-5.4.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    }
+  },
+  "degradation_vector": {
+    "hash_unverified": false,
+    "hash_mismatched": false,
+    "fs_unknown": false,
+    "no_usnjrnl": false,
+    "no_nsrl": false,
+    "evtx_channels_missing": [],
+    "unmountable_partitions": [],
+    "encryption_present": false,
+    "notes": []
+  },
+  "current_step": "STEP-3-5",
+  "halted": false,
+  "halt_code": null
+}

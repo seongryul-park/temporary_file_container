@@ -1,0 +1,4 @@
+bash: line 1: {sha}: command not found
+bash: line 1: {rh}: command not found
+bash: command substitution: line 5: syntax error near unexpected token `('
+bash: command substitution: line 5: `lines.append(f'  --case-id {os.environ.get("CASE_ID","CASE-001")} \\')'

@@ -1,0 +1,22 @@
+{
+  "step_id": "STEP-6-2",
+  "phase": 6,
+  "execution_status": "completed",
+  "started_utc": "2026-05-27T06:28:22.578385Z",
+  "finished_utc": "2026-05-27T06:28:22.690071Z",
+  "artifacts_generated": [
+    "rdp_logons",
+    "ssh_source_ips",
+    "psexec_indicators",
+    "lateral_movement_counts",
+    "rdp_logons_txt",
+    "ssh_source_ips_txt",
+    "psexec_indicators_txt"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [],
+  "next_branch": "NEXT:STEP-6-3",
+  "replay_hash": "8082cc7e44c422648e7dca5929959a874f309773d4e9b9a7c2baf68e7988eb34",
+  "summarized_utc": "2026-05-27T06:28:22.690457Z"
+}

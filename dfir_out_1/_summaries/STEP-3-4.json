@@ -1,0 +1,18 @@
+{
+  "step_id": "STEP-3-4",
+  "phase": 3,
+  "execution_status": "completed",
+  "started_utc": "2026-05-27T06:27:59.900559Z",
+  "finished_utc": "2026-05-27T06:28:12.856047Z",
+  "artifacts_generated": [
+    "unsigned_bad_sig",
+    "signature_results_txt",
+    "unsigned_or_bad_signature_txt"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [],
+  "next_branch": "NEXT:STEP-3-5",
+  "replay_hash": "788d2e29f2ea475980e5d60735ea3c9a91d83d9ecc9fcd2c4bfc853aadb4f263",
+  "summarized_utc": "2026-05-27T06:28:12.856221Z"
+}

@@ -1,0 +1,225 @@
+/mnt/image/Windows/System32/Tasks/Adobe Acrobat Update Task
+/mnt/image/Windows/System32/Tasks/Agent Activation Runtime/S-1-5-21-528816539-567677750-276746561-1002
+/mnt/image/Windows/System32/Tasks/GoogleUpdateTaskMachineCore
+/mnt/image/Windows/System32/Tasks/GoogleUpdateTaskMachineUA
+/mnt/image/Windows/System32/Tasks/Microsoft/Office/Office Automatic Updates 2.0
+/mnt/image/Windows/System32/Tasks/Microsoft/Office/Office ClickToRun Service Monitor
+/mnt/image/Windows/System32/Tasks/Microsoft/Office/Office Feature Updates
+/mnt/image/Windows/System32/Tasks/Microsoft/Office/Office Feature Updates Logon
+/mnt/image/Windows/System32/Tasks/Microsoft/Office/Office Subscription Maintenance
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/.NET Framework/.NET Framework NGEN v4.0.30319
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/.NET Framework/.NET Framework NGEN v4.0.30319 64
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/.NET Framework/.NET Framework NGEN v4.0.30319 64 Critical
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/.NET Framework/.NET Framework NGEN v4.0.30319 Critical
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Active Directory Rights Management Services Client/AD RMS Rights Policy Template Management (Automated)
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Active Directory Rights Management Services Client/AD RMS Rights Policy Template Management (Manual)
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/AppID/EDP Policy Manager
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/AppID/PolicyConverter
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/AppID/SmartScreenSpecific
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/AppID/VerifiedPublisherCertStoreCheck
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Application Experience/Microsoft Compatibility Appraiser
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Application Experience/PcaPatchDbTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Application Experience/ProgramDataUpdater
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Application Experience/StartupAppTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/applicationdata/appuriverifierdaily
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/applicationdata/appuriverifierinstall
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/applicationdata/CleanupTemporaryState
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/applicationdata/DsSvcCleanup
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/AppxDeploymentClient/Pre-staged app cleanup
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Autochk/Proxy
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/BitLocker/BitLocker Encrypt All Drives
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/BitLocker/BitLocker MDM policy Refresh
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Bluetooth/UninstallDeviceTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/BrokerInfrastructure/BgTaskRegistrationMaintenanceTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Chkdsk/ProactiveScan
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Chkdsk/SyspartRepair
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Clip/License Validation
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/CloudExperienceHost/CreateObjectTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Customer Experience Improvement Program/Consolidator
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Customer Experience Improvement Program/UsbCeip
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Data Integrity Scan/Data Integrity Check And Scan
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Data Integrity Scan/Data Integrity Scan
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Data Integrity Scan/Data Integrity Scan for Crash Recovery
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Defrag/ScheduledDefrag
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Device Information/Device
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Device Information/Device User
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Device Setup/Metadata Refresh
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/HandleCommand
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/HandleWnsCommand
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/IntegrityCheck
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/LocateCommandUserSession
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceAccountChange
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceConnectedToNetwork
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceLocationRightsChange
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDevicePeriodic1
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDevicePeriodic24
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDevicePeriodic6
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDevicePolicyChange
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceProtectionStateChanged
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceScreenOnOff
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceSettingChange
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceWnsFallback
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/RegisterUserDevice
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Diagnosis/RecommendedTroubleshootingScanner
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Diagnosis/Scheduled
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DiskCleanup/SilentCleanup
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DiskDiagnostic/Microsoft-Windows-DiskDiagnosticDataCollector
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DiskDiagnostic/Microsoft-Windows-DiskDiagnosticResolver
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DiskFootprint/Diagnostics
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DiskFootprint/StorageSense
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DUSM/dusmtask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/EDP/EDP App Launch Task
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/EDP/EDP Auth Task
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/EDP/EDP Inaccessible Credentials Task
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/EDP/StorageCardEncryption Task
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/ErrorDetails/EnableErrorDetailsUpdate
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/ErrorDetails/ErrorDetailsUpdate
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/ExploitGuard/ExploitGuard MDM policy Refresh
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Feedback/Siuf/DmClient
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Feedback/Siuf/DmClientOnScenarioDownload
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/File Classification Infrastructure/Property Definition Sync
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/FileHistory/File History (maintenance mode)
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Flighting/FeatureConfig/ReconcileFeatures
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Flighting/FeatureConfig/UsageDataFlushing
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Flighting/FeatureConfig/UsageDataReporting
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Flighting/OneSettings/RefreshCache
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/HelloFace/FODCleanupTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Input/LocalUserSyncDataAvailable
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Input/MouseSyncDataAvailable
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Input/PenSyncDataAvailable
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Input/TouchpadSyncDataAvailable
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/InstallService/ScanForUpdates
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/InstallService/ScanForUpdatesAsUser
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/InstallService/SmartRetry
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/InstallService/WakeUpAndContinueUpdates
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/InstallService/WakeUpAndScanForUpdates
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/International/Synchronize Language Settings
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/LanguageComponentsInstaller/Installation
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/LanguageComponentsInstaller/ReconcileLanguageResources
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/LanguageComponentsInstaller/Uninstallation
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/License Manager/TempSignedLicenseExchange
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Location/Notifications
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Location/WindowsActionDialog
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Maintenance/WinSAT
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Management/Provisioning/Cellular
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Management/Provisioning/Logon
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Management/Provisioning/Retry
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Management/Provisioning/RunOnReboot
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Maps/MapsToastTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Maps/MapsUpdateTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/MemoryDiagnostic/ProcessMemoryDiagnosticEvents
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/MemoryDiagnostic/RunFullMemoryDiagnostic
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/MUI/LPRemove
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Multimedia/SystemSoundsService
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/NetTrace/GatherNetworkInfo
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/NlaSvc/WiFiTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Offline Files/Background Synchronization
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Offline Files/Logon Synchronization
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/PI/Secure-Boot-Update
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/PI/Sqm-Tasks
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Plug and Play/Device Install Group Policy
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Plug and Play/Device Install Reboot Required
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Plug and Play/Sysprep Generalize Drivers
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Power Efficiency Diagnostics/AnalyzeSystem
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Printing/EduPrintProv
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/PushToInstall/LoginCheck
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/PushToInstall/Registration
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Ras/MobilityManager
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Registry/RegIdleBackup
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/RemoteAssistance/RemoteAssistanceTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Servicing/StartComponentCleanup
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SettingSync/BackgroundUploadTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SettingSync/NetworkStateChangeTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Setup/SetupCleanupTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SharedPC/Account Cleanup
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Shell/CreateObjectTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Shell/FamilySafetyMonitor
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Shell/FamilySafetyRefreshTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Shell/IndexerAutomaticMaintenance
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Shell/UpdateUserPictureTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SoftwareProtectionPlatform/SvcRestartTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SoftwareProtectionPlatform/SvcRestartTaskLogon
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SoftwareProtectionPlatform/SvcRestartTaskNetwork
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SpacePort/SpaceAgentTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SpacePort/SpaceManagerTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Speech/SpeechModelDownloadTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/StateRepository/MaintenanceTasks
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/CertificateServicesClient/AikCertEnrollTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/CertificateServicesClient/CryptoPolicyTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/CertificateServicesClient/KeyPreGenTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/CertificateServicesClient/SystemTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/CertificateServicesClient/UserTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/CertificateServicesClient/UserTask-Roam
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DirectX/DirectXDatabaseUpdater
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/DirectX/DXGIAdapterCache
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Mobile Broadband Accounts/MNO Metadata Parser
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/RecoveryEnvironment/VerifyWinRE
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UNP/RunUpdateNotificationMgr
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Storage Tiers Management/Storage Tiers Management Initialization
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Storage Tiers Management/Storage Tiers Optimization
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Subscription/EnableLicenseAcquisition
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Subscription/LicenseAcquisition
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Sysmain/HybridDriveCachePrepopulate
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Sysmain/HybridDriveCacheRebalance
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Sysmain/ResPriStaticDbSync
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Sysmain/WsSwapAssessmentTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/SystemRestore/SR
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Task Manager/Interactive
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/termsrv/RemoteFX/RemoteFXvGPUDisableTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/termsrv/RemoteFX/RemoteFXWarningTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/TextServicesFramework/MsCtfMonitor
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Time Synchronization/ForceSynchronizeTime
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Time Synchronization/SynchronizeTime
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Time Zone/SynchronizeTimeZone
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/TPM/Tpm-HASCertRetr
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/TPM/Tpm-Maintenance
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Maintenance Install
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Policy Install
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Reboot
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Reboot_AC
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Reboot_Battery
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Report policies
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Schedule Maintenance Work
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Schedule Scan
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Schedule Scan Static Task
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Schedule Wake To Work
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/Schedule Work
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/UpdateModelTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/USO_UxBroker
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/USO_UxBroker_Display
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UpdateOrchestrator/USO_UxBroker_ReadyToReboot
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/UPnP/UPnPHostConfig
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/USB/Usb-Notifications
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/User Profile Service/HiveUploadTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WaaSMedic/PerformRemediation
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WCM/WiFiTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WDI/ResolutionHost
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Windows Defender/Windows Defender Cache Maintenance
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Windows Defender/Windows Defender Cleanup
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Windows Defender/Windows Defender Scheduled Scan
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Windows Defender/Windows Defender Verification
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Windows Error Reporting/QueueReporting
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Windows Filtering Platform/BfeOnServiceStartTypeChange
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Windows Media Sharing/UpdateLibrary
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WindowsColorSystem/Calibration Loader
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WindowsUpdate/Scheduled Start
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WindowsUpdate/sih
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Wininet/CacheTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WlanSvc/CDSSync
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WOF/WIM-Hash-Management
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WOF/WIM-Hash-Validation
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Work Folders/Work Folders Logon Synchronization
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Work Folders/Work Folders Maintenance Work
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Workplace Join/Automatic-Device-Join
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Workplace Join/Device-Sync
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/Workplace Join/Recovery-Check
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WwanSvc/NotificationTask
+/mnt/image/Windows/System32/Tasks/Microsoft/Windows/WwanSvc/OobeDiscovery
+/mnt/image/Windows/System32/Tasks/Microsoft/XblGameSave/XblGameSaveTask
+/mnt/image/Windows/System32/Tasks/MicrosoftEdgeUpdateTaskMachineCore
+/mnt/image/Windows/System32/Tasks/MicrosoftEdgeUpdateTaskMachineUA
+/mnt/image/Windows/System32/Tasks/Mozilla/Firefox Default Browser Agent 308046B0AF4A39CB
+/mnt/image/Windows/System32/Tasks/OneDrive Standalone Update Task-S-1-5-21-1787238638-995825184-2828871149-500
+/mnt/image/Windows/System32/Tasks/OneDrive Standalone Update Task-S-1-5-21-528816539-567677750-276746561-1001
+/mnt/image/Windows/System32/Tasks/OneDrive Standalone Update Task-S-1-5-21-528816539-567677750-276746561-1002
+/mnt/image/Windows/System32/Tasks/OneDrive Standalone Update Task-S-1-5-21-528816539-567677750-276746561-500
