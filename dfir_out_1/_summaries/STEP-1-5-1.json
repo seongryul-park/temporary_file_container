@@ -1,0 +1,18 @@
+{
+  "step_id": "STEP-1-5-1",
+  "phase": 1,
+  "execution_status": "completed_empty",
+  "started_utc": "2026-05-27T11:19:38.872069Z",
+  "finished_utc": "2026-05-27T11:19:40.043557Z",
+  "artifacts_generated": [
+    "prefetch_inventory"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [
+    "postcondition:prefetch_status:not_registered"
+  ],
+  "next_branch": "NEXT:STEP-1-5-2",
+  "replay_hash": "46ebc77eb6180bcf21d539642d25a20286bcd219c9e5cdda649ea64978c4c671",
+  "summarized_utc": "2026-05-27T11:19:40.043736Z"
+}

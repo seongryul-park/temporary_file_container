@@ -1,0 +1,10 @@
+Author: Eric Zimmerman (saericzimmerman@gmail.com)
+https://github.com/EricZimmerman/AppCompatCacheParser
+
+Command line: -f /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SYSTEM --csv /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evidence_of_execution --csvf shimcache.csv
+
+Processing hive '/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/registry/SYSTEM'
+
+Raw disk reads not supported on non-Windows platforms. Returning false!
+Raw disk reads not supported on non-Windows platforms. Returning false!
+Registry hive is dirty and no transaction logs were found in the same directory! LOGs should have same base name as the hive. Aborting!!

@@ -1,11 +1,21 @@
-29 /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/reports/executive_summary.md
+69 /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/reports/executive_summary.md
 # DFIR Executive Summary
-**Case ID:** CASE-001  
-**Operator:** Unknown  
-**Generated:** 2026-05-27T06:28:23Z UTC  
+**Case ID:** CASE-???
+**Operator:** Unknown
+**Generated:** 2026-05-27T11:21:16Z
 **Evidence Integrity:** UNVERIFIED
+**E01 SHA-256:** `n/a`
+**E01 MD5:** `n/a`
+
+> **EVIDENCE INTEGRITY: UNVERIFIED** — no chain-of-custody anchor was supplied. SHA-256 was computed but not matched.
 
 
-## Key Findings Summary
+## Run Capability Matrix
 
-| Dimension | Count | Severity |
+| Capability | Available |
+|---|---|
+| Authenticode validator | no |
+| Registry parser | no |
+| EVTX parser | no |
+| NSRL hash allowlist | no |
+| Prefetch parser (PECmd) | no |

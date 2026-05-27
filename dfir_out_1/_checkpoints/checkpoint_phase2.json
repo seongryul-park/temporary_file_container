@@ -1,11 +1,11 @@
 {
-  "run_id": "5c045c7b-9700-421e-9178-61a4c35e4eb6",
-  "written_utc": "2026-05-27T06:27:22.831114Z",
+  "run_id": "be48db38-f5cb-4975-8808-0f4a310d8232",
+  "written_utc": "2026-05-27T11:20:30.508568Z",
   "phase": 2,
   "state_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_checkpoints/state_phase2.json",
-  "state_sha256": "e7cdb8635f7a104fa1aa0e0a66aa33baa5686d18da1e917df5b8f43d12f7779d",
+  "state_sha256": "8f16ff9dd59abf409ade0909f0f4a9d6f0f5599adb5ecaca428023c295323217",
   "artifacts_registry_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_registry/artifacts.jsonl",
-  "artifacts_registry_sha256": "6eba22d48f0ce6dc7ee9524bd5f8e5445017a45a9dc8eb8385dc2ed99acef773",
+  "artifacts_registry_sha256": "3df0b044df3a2582e474d68ad700f1391de84723122ac7351d39112f9b919934",
   "findings_registry_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_registry/findings.jsonl",
   "findings_registry_sha256": "",
   "resume_step": "STEP-3-1"

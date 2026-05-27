@@ -2,8 +2,8 @@
   "step_id": "STEP-4-4",
   "phase": 4,
   "execution_status": "completed",
-  "started_utc": "2026-05-27T06:28:21.530856Z",
-  "finished_utc": "2026-05-27T06:28:22.180473Z",
+  "started_utc": "2026-05-27T11:21:14.626401Z",
+  "finished_utc": "2026-05-27T11:21:15.337841Z",
   "artifacts_generated": [
     "wmi_suspicious",
     "wmi_strings_txt",
@@ -14,5 +14,5 @@
   "degradation_flags": [],
   "next_branch": "NEXT:STEP-4-5",
   "replay_hash": "c3579d9e8dc5926a1f0011f30e0f89ab288d2928fb7ffb9493f9e2e4e6718a84",
-  "summarized_utc": "2026-05-27T06:28:22.180808Z"
+  "summarized_utc": "2026-05-27T11:21:15.338050Z"
 }

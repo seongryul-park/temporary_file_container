@@ -1,18 +1,16 @@
 {
   "step_id": "STEP-3-4",
   "phase": 3,
-  "execution_status": "completed",
-  "started_utc": "2026-05-27T06:27:59.900559Z",
-  "finished_utc": "2026-05-27T06:28:12.856047Z",
-  "artifacts_generated": [
-    "unsigned_bad_sig",
-    "signature_results_txt",
-    "unsigned_or_bad_signature_txt"
-  ],
+  "execution_status": "tool_unavailable",
+  "started_utc": "2026-05-27T11:21:12.401258Z",
+  "finished_utc": "2026-05-27T11:21:12.401258Z",
+  "artifacts_generated": [],
   "findings_generated": [],
   "suspicious_entities": [],
-  "degradation_flags": [],
+  "degradation_flags": [
+    "tool_unavailable:has_authenticode:Need sigcheck / osslsigncode / disitool to verify PE signatures."
+  ],
   "next_branch": "NEXT:STEP-3-5",
-  "replay_hash": "788d2e29f2ea475980e5d60735ea3c9a91d83d9ecc9fcd2c4bfc853aadb4f263",
-  "summarized_utc": "2026-05-27T06:28:12.856221Z"
+  "replay_hash": "7cf6bf0a9ec750ee6c50843aa44faec55aa2e2cb9579f172d0dfc6e45a646e9f",
+  "summarized_utc": "2026-05-27T11:21:12.402878Z"
 }

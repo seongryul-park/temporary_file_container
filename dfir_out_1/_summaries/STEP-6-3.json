@@ -2,8 +2,8 @@
   "step_id": "STEP-6-3",
   "phase": 6,
   "execution_status": "completed",
-  "started_utc": "2026-05-27T06:28:22.701059Z",
-  "finished_utc": "2026-05-27T06:28:23.016946Z",
+  "started_utc": "2026-05-27T11:21:16.039424Z",
+  "finished_utc": "2026-05-27T11:21:16.441363Z",
   "artifacts_generated": [
     "exfil_summary",
     "archive_files_txt",
@@ -15,5 +15,5 @@
   "degradation_flags": [],
   "next_branch": "NEXT:STEP-7-1",
   "replay_hash": "5f0802a60702aeb8366d42dd8e147ed41b93c39fb0367ccb95ed4caec63abbbe",
-  "summarized_utc": "2026-05-27T06:28:23.017208Z"
+  "summarized_utc": "2026-05-27T11:21:16.441824Z"
 }

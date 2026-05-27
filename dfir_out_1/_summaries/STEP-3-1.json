@@ -2,8 +2,8 @@
   "step_id": "STEP-3-1",
   "phase": 3,
   "execution_status": "completed",
-  "started_utc": "2026-05-27T06:27:22.836454Z",
-  "finished_utc": "2026-05-27T06:27:27.509042Z",
+  "started_utc": "2026-05-27T11:20:30.513529Z",
+  "finished_utc": "2026-05-27T11:20:32.443778Z",
   "artifacts_generated": [
     "suspect_file_count",
     "suspicious_executables_windows_txt",
@@ -16,5 +16,5 @@
   "degradation_flags": [],
   "next_branch": "NEXT:STEP-3-2",
   "replay_hash": "2af53ca8c9f8879bb6b06f8ac1880733b37c7e62ce38af000272837ae0861552",
-  "summarized_utc": "2026-05-27T06:27:27.509230Z"
+  "summarized_utc": "2026-05-27T11:20:32.443966Z"
 }

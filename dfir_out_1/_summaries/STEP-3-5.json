@@ -1,22 +1,16 @@
 {
   "step_id": "STEP-3-5",
   "phase": 3,
-  "execution_status": "completed",
-  "started_utc": "2026-05-27T06:28:12.869486Z",
-  "finished_utc": "2026-05-27T06:28:19.701804Z",
-  "artifacts_generated": [
-    "urls_found",
-    "ips_found",
-    "entropy_results",
-    "strings_all_txt",
-    "urls_found_txt",
-    "ips_found_txt",
-    "entropy_sections_txt"
-  ],
+  "execution_status": "degraded_upstream",
+  "started_utc": "2026-05-27T11:21:12.432844Z",
+  "finished_utc": "2026-05-27T11:21:12.432844Z",
+  "artifacts_generated": [],
   "findings_generated": [],
   "suspicious_entities": [],
-  "degradation_flags": [],
+  "degradation_flags": [
+    "degraded_upstream:STEP-3-3:completed_empty"
+  ],
   "next_branch": "NEXT:STEP-4-1",
-  "replay_hash": "ed3eabd3e67b9e668c03bc629dc0b5ee9ea6dd8761f24bced4ce33824d54da36",
-  "summarized_utc": "2026-05-27T06:28:19.702078Z"
+  "replay_hash": "a1968676178014fdc4c86bc8493e7f91fbdc6eef44d4b44cacf55990ab0e806a",
+  "summarized_utc": "2026-05-27T11:21:12.433930Z"
 }

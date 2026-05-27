@@ -1,0 +1,16 @@
+{
+  "step_id": "STEP-1-5-2",
+  "phase": 1,
+  "execution_status": "completed",
+  "started_utc": "2026-05-27T11:19:40.060368Z",
+  "finished_utc": "2026-05-27T11:19:40.677234Z",
+  "artifacts_generated": [
+    "amcache_dir"
+  ],
+  "findings_generated": [],
+  "suspicious_entities": [],
+  "degradation_flags": [],
+  "next_branch": "NEXT:STEP-2-1-1",
+  "replay_hash": "189c98ddcdf3cbd51dbaef63213d28e1c096435f3dcc00c48d3c70c96e6c02d0",
+  "summarized_utc": "2026-05-27T11:19:40.678100Z"
+}

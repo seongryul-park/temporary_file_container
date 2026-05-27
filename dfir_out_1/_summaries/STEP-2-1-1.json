@@ -2,8 +2,8 @@
   "step_id": "STEP-2-1-1",
   "phase": 2,
   "execution_status": "completed",
-  "started_utc": "2026-05-27T06:26:32.212012Z",
-  "finished_utc": "2026-05-27T06:27:03.752062Z",
+  "started_utc": "2026-05-27T11:19:40.692043Z",
+  "finished_utc": "2026-05-27T11:20:13.836681Z",
   "artifacts_generated": [
     "evtx_inventory",
     "evtx_copy_count",
@@ -17,5 +17,5 @@
   "degradation_flags": [],
   "next_branch": "NEXT:STEP-2-1-2",
   "replay_hash": "177ea712d2caf2896d4517d9826ccd9a3e61f7b3204fb8affb6d5ce0524156d0",
-  "summarized_utc": "2026-05-27T06:27:03.752666Z"
+  "summarized_utc": "2026-05-27T11:20:13.836951Z"
 }

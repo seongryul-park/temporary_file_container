@@ -1,0 +1,7 @@
+ | /mnt/image/Windows/System32/Tasks/Microsoft/Windows/Active Directory Rights Management Services Client/AD RMS Rights Policy Template Management (Automated)
+ | /mnt/image/Windows/System32/Tasks/Microsoft/Windows/Active Directory Rights Management Services Client/AD RMS Rights Policy Template Management (Manual)
+ | /mnt/image/Windows/System32/Tasks/Microsoft/Windows/Application Experience/ProgramDataUpdater
+ | /mnt/image/Windows/System32/Tasks/Microsoft/Windows/applicationdata/CleanupTemporaryState
+ | /mnt/image/Windows/System32/Tasks/Microsoft/Windows/DeviceDirectoryClient/LocateCommandUserSession
+ | /mnt/image/Windows/System32/Tasks/Microsoft/Windows/Input/LocalUserSyncDataAvailable
+ | /mnt/image/Windows/System32/Tasks/Microsoft/Windows/License Manager/TempSignedLicenseExchange

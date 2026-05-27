@@ -1,18 +1,20 @@
 {
   "step_id": "STEP-3-3",
   "phase": 3,
-  "execution_status": "completed",
-  "started_utc": "2026-05-27T06:27:43.330256Z",
-  "finished_utc": "2026-05-27T06:27:59.889589Z",
+  "execution_status": "completed_empty",
+  "started_utc": "2026-05-27T11:20:52.653774Z",
+  "finished_utc": "2026-05-27T11:21:12.386444Z",
   "artifacts_generated": [
     "nsrl_comparison_result",
     "exec_sha256sums_txt",
-    "unknown_exec_hashes_txt"
+    "nsrl_status_txt"
   ],
   "findings_generated": [],
   "suspicious_entities": [],
-  "degradation_flags": [],
+  "degradation_flags": [
+    "postcondition:nsrl_status_txt:sentinel:'nsrl_set_unavailable'"
+  ],
   "next_branch": "NEXT:STEP-3-4",
-  "replay_hash": "08a0ec7afb51b724a24b382f7004e8fecfd1f8bf20c0d222eb16389d6c8c64d9",
-  "summarized_utc": "2026-05-27T06:27:59.889762Z"
+  "replay_hash": "eb36dcd0dacdba2e5279ff4a864ecf925d843929f4467d5d16af7e4c97194657",
+  "summarized_utc": "2026-05-27T11:21:12.386703Z"
 }

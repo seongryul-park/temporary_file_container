@@ -2,8 +2,8 @@
   "step_id": "STEP-5-3",
   "phase": 5,
   "execution_status": "completed",
-  "started_utc": "2026-05-27T06:28:22.370599Z",
-  "finished_utc": "2026-05-27T06:28:22.478906Z",
+  "started_utc": "2026-05-27T11:21:15.599275Z",
+  "finished_utc": "2026-05-27T11:21:15.763311Z",
   "artifacts_generated": [
     "pivot_exec_persistence",
     "pivot_c2_ip",
@@ -16,5 +16,5 @@
   "degradation_flags": [],
   "next_branch": "NEXT:STEP-6-1",
   "replay_hash": "3db6fd51061b38a7bf4b6c08dd2f11c614f254f3aa8192d979320f72177dec01",
-  "summarized_utc": "2026-05-27T06:28:22.479164Z"
+  "summarized_utc": "2026-05-27T11:21:15.763486Z"
 }
