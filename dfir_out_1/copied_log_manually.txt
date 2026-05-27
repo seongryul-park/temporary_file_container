@@ -1,0 +1,31 @@
+(.venv) sansforensics@siftworkstation: ~/Desktop/autonomous-forensic-agent
+$ python -m dfir_runtime.main --e01 ~/case/rocba-cdrive.e01 --out ~/Desktop/temporary_file_container/dfir_out_1 --case-id CASE-001 --operator S.Park --steps ./dfir_runtime/steps --entry STEP-0-1-1
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/sansforensics/Desktop/autonomous-forensic-agent/dfir_runtime/main.py", line 177, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/sansforensics/Desktop/autonomous-forensic-agent/dfir_runtime/main.py", line 170, in main
+    final = executor.run()
+            ^^^^^^^^^^^^^^
+  File "/home/sansforensics/Desktop/autonomous-forensic-agent/dfir_runtime/executor.py", line 183, in run
+    next_step, decision = self._run_step(step)
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sansforensics/Desktop/autonomous-forensic-agent/dfir_runtime/executor.py", line 295, in _run_step
+    self._register_artifacts(step, sx)
+  File "/home/sansforensics/Desktop/autonomous-forensic-agent/dfir_runtime/executor.py", line 451, in _register_artifacts
+    rec = self.artifacts.register(
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sansforensics/Desktop/autonomous-forensic-agent/dfir_runtime/registry.py", line 153, in register
+    digest, size = sha256_file(path)
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/sansforensics/Desktop/autonomous-forensic-agent/dfir_runtime/registry.py", line 40, in sha256_file
+    with path.open("rb") as f:
+         ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/evtx_json'
+(.venv) sansforensics@siftworkstation: ~/Desktop/autonomous-forensic-agent
+
