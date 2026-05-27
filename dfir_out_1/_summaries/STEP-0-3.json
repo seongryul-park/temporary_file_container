@@ -1,14 +1,17 @@
 {
   "step_id": "STEP-0-3",
   "phase": 0,
-  "execution_status": "halted",
-  "started_utc": "2026-05-26T08:58:35.529315Z",
-  "finished_utc": "2026-05-26T08:58:35.634541Z",
-  "artifacts_generated": [],
+  "execution_status": "completed",
+  "started_utc": "2026-05-27T05:06:33.779285Z",
+  "finished_utc": "2026-05-27T05:06:34.540615Z",
+  "artifacts_generated": [
+    "partitions_raw",
+    "fsstat_wholedisk_probe"
+  ],
   "findings_generated": [],
   "suspicious_entities": [],
   "degradation_flags": [],
-  "next_branch": "HALT:HALT_OUTPUT",
-  "replay_hash": "576f7ea657bed051418f8a64df7d3c2ef832cb83c1110f8fa2415a8d7f6c9e24",
-  "summarized_utc": "2026-05-26T08:58:35.634626Z"
+  "next_branch": "NEXT:STEP-0-4",
+  "replay_hash": "37ac106c57e0e2a9290c168df804af36fba6d8037e22374606292eccf3256d64",
+  "summarized_utc": "2026-05-27T05:06:34.542328Z"
 }

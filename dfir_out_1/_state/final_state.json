@@ -1,6 +1,6 @@
 {
-  "run_id": "ebb1f03b-bfdf-4230-bf4c-f102aabec18a",
-  "started_utc": "2026-05-26T08:48:25.247714Z",
+  "run_id": "8d210722-cfff-48db-8841-28239fe9a5c3",
+  "started_utc": "2026-05-27T04:57:48.998118Z",
   "case_id": "CASE-001",
   "operator": "S.Park",
   "out_dir": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1",
@@ -16,7 +16,22 @@
     "ewfmount_handle": "/mnt/ewf/ewf1",
     "ewfinfo_format": null
   },
-  "partitions": [],
+  "partitions": [
+    {
+      "slot": 0,
+      "offset_bytes": 0,
+      "length_bytes": 0,
+      "fs": "ntfs",
+      "mountpoint": null,
+      "os": "unknown",
+      "profile": {
+        "hostname": null,
+        "timezone": null,
+        "os_version": null,
+        "accounts": []
+      }
+    }
+  ],
   "incident_window": {
     "start_utc": null,
     "end_utc": null,
@@ -26,8 +41,8 @@
     "STEP-0-1-1": {
       "step_id": "STEP-0-1-1",
       "status": "completed",
-      "started_utc": "2026-05-26T08:48:25.276153Z",
-      "finished_utc": "2026-05-26T08:48:25.287331Z",
+      "started_utc": "2026-05-27T04:57:49.029483Z",
+      "finished_utc": "2026-05-27T04:57:49.051847Z",
       "retries": 0,
       "produced_artifacts": [
         "e01_listing"
@@ -44,8 +59,8 @@
             "/home/sansforensics/case/rocba-cdrive.e01"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:48:25.276435Z",
-          "finished_utc": "2026-05-26T08:48:25.282441Z",
+          "started_utc": "2026-05-27T04:57:49.029771Z",
+          "finished_utc": "2026-05-27T04:57:49.040143Z",
           "exit_code": 0,
           "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -61,8 +76,8 @@
             "/home/sansforensics/case/rocba-cdrive.e01"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:48:25.282963Z",
-          "finished_utc": "2026-05-26T08:48:25.286996Z",
+          "started_utc": "2026-05-27T04:57:49.040686Z",
+          "finished_utc": "2026-05-27T04:57:49.050499Z",
           "exit_code": 0,
           "stdout_sha256": "51f94552fd093cd105c8d7b387b259137639afbeaefd803045b1e2c4f953215e",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -78,8 +93,8 @@
     "STEP-0-1-2": {
       "step_id": "STEP-0-1-2",
       "status": "completed",
-      "started_utc": "2026-05-26T08:48:25.293881Z",
-      "finished_utc": "2026-05-26T08:58:35.049233Z",
+      "started_utc": "2026-05-27T04:57:49.058129Z",
+      "finished_utc": "2026-05-27T05:06:33.042883Z",
       "retries": 0,
       "produced_artifacts": [
         "e01_sha256",
@@ -97,8 +112,8 @@
             "/home/sansforensics/case/rocba-cdrive.e01"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:48:25.294116Z",
-          "finished_utc": "2026-05-26T08:50:31.086108Z",
+          "started_utc": "2026-05-27T04:57:49.058359Z",
+          "finished_utc": "2026-05-27T04:59:33.403448Z",
           "exit_code": 0,
           "stdout_sha256": "fa1efcffc6e6d498be145d39260de77763996e9ce24cf98540cd77c9f8bb6fb6",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -113,8 +128,8 @@
             "/home/sansforensics/case/rocba-cdrive.e01"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:50:31.087224Z",
-          "finished_utc": "2026-05-26T08:52:01.128433Z",
+          "started_utc": "2026-05-27T04:59:33.404557Z",
+          "finished_utc": "2026-05-27T05:00:50.062582Z",
           "exit_code": 0,
           "stdout_sha256": "ecccb8c3f3359e8ed40e48f5d70db31c7e61ce8250f355f79fc38143cd8a3cc3",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -129,10 +144,10 @@
             "/home/sansforensics/case/rocba-cdrive.e01"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:52:01.129343Z",
-          "finished_utc": "2026-05-26T08:58:35.045216Z",
+          "started_utc": "2026-05-27T05:00:50.063777Z",
+          "finished_utc": "2026-05-27T05:06:33.037606Z",
           "exit_code": 0,
-          "stdout_sha256": "70ce3389dcc0c69905b87c7132fe87fc4293c75bb4a249f42edf35303b5e7224",
+          "stdout_sha256": "79255a7e1ae5a909d6c7b99e46c6489c7fdd18347515adb5476e219ea7a55095",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.2.stdout",
           "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.2.stderr",
@@ -146,8 +161,8 @@
     "STEP-0-1-3": {
       "step_id": "STEP-0-1-3",
       "status": "completed",
-      "started_utc": "2026-05-26T08:58:35.057617Z",
-      "finished_utc": "2026-05-26T08:58:35.087151Z",
+      "started_utc": "2026-05-27T05:06:33.051899Z",
+      "finished_utc": "2026-05-27T05:06:33.085409Z",
       "retries": 0,
       "produced_artifacts": [
         "coc_check_sha256",
@@ -165,8 +180,8 @@
             "grep -oP '^[0-9a-f]{64}' \"/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/STEP-0-1-2.0.stdout\" 2>/dev/null || true"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.057850Z",
-          "finished_utc": "2026-05-26T08:58:35.076479Z",
+          "started_utc": "2026-05-27T05:06:33.052984Z",
+          "finished_utc": "2026-05-27T05:06:33.072600Z",
           "exit_code": 0,
           "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -182,8 +197,8 @@
             "grep -oP '^[0-9a-f]{32}' \"/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-1-2.1.stdout\" 2>/dev/null || true"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.077285Z",
-          "finished_utc": "2026-05-26T08:58:35.086668Z",
+          "started_utc": "2026-05-27T05:06:33.074050Z",
+          "finished_utc": "2026-05-27T05:06:33.084012Z",
           "exit_code": 0,
           "stdout_sha256": "82ad2b8c48855a2269e3fa15f1de9999e4912dbfffab933ebb1ef2f7d925407f",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -199,8 +214,8 @@
     "STEP-0-2": {
       "step_id": "STEP-0-2",
       "status": "completed",
-      "started_utc": "2026-05-26T08:58:35.098106Z",
-      "finished_utc": "2026-05-26T08:58:35.515660Z",
+      "started_utc": "2026-05-27T05:06:33.095100Z",
+      "finished_utc": "2026-05-27T05:06:33.760942Z",
       "retries": 0,
       "produced_artifacts": [
         "ewfmount_listing",
@@ -220,8 +235,8 @@
             "fusermount -u /mnt/ewf 2>/dev/null || true; mkdir -p /mnt/ewf"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.098790Z",
-          "finished_utc": "2026-05-26T08:58:35.168558Z",
+          "started_utc": "2026-05-27T05:06:33.096032Z",
+          "finished_utc": "2026-05-27T05:06:33.166006Z",
           "exit_code": 0,
           "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -239,8 +254,8 @@
             "/mnt/ewf/"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.169412Z",
-          "finished_utc": "2026-05-26T08:58:35.444274Z",
+          "started_utc": "2026-05-27T05:06:33.167031Z",
+          "finished_utc": "2026-05-27T05:06:33.648948Z",
           "exit_code": 0,
           "stdout_sha256": "cd506534cc7aa757786c8a4b4c66098d25294985dd0dae59007b4eb2ab2e6117",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -258,10 +273,10 @@
             "/mnt/ewf/"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.444593Z",
-          "finished_utc": "2026-05-26T08:58:35.479761Z",
+          "started_utc": "2026-05-27T05:06:33.650010Z",
+          "finished_utc": "2026-05-27T05:06:33.726185Z",
           "exit_code": 0,
-          "stdout_sha256": "dbf1d5ef164380c350c20ccf3f26b7c509336fc364e3a66cb1ff66f07aefdee8",
+          "stdout_sha256": "64ea9eee50f8363bca1d906f4160a11af9c70f6228a5fe3e2726302420251187",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.2.stdout",
           "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-2.2.stderr",
@@ -277,8 +292,8 @@
             "test -r /mnt/ewf/ewf1 && stat --printf='size=%s\\n' /mnt/ewf/ewf1"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.480141Z",
-          "finished_utc": "2026-05-26T08:58:35.515053Z",
+          "started_utc": "2026-05-27T05:06:33.726817Z",
+          "finished_utc": "2026-05-27T05:06:33.759048Z",
           "exit_code": 0,
           "stdout_sha256": "4b689afa478b7c42b7b7fb013b2601cf692d7cfa279303cb0cf839a8a8d9c538",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -293,11 +308,14 @@
     },
     "STEP-0-3": {
       "step_id": "STEP-0-3",
-      "status": "halted",
-      "started_utc": "2026-05-26T08:58:35.529315Z",
-      "finished_utc": "2026-05-26T08:58:35.634541Z",
+      "status": "completed",
+      "started_utc": "2026-05-27T05:06:33.779285Z",
+      "finished_utc": "2026-05-27T05:06:34.540615Z",
       "retries": 0,
-      "produced_artifacts": [],
+      "produced_artifacts": [
+        "partitions_raw",
+        "fsstat_wholedisk_probe"
+      ],
       "consumed_artifacts": [],
       "produced_findings": [],
       "degradation": [],
@@ -310,8 +328,8 @@
             "command -v mmls"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.529560Z",
-          "finished_utc": "2026-05-26T08:58:35.535091Z",
+          "started_utc": "2026-05-27T05:06:33.779791Z",
+          "finished_utc": "2026-05-27T05:06:33.789001Z",
           "exit_code": 0,
           "stdout_sha256": "af521faa4df7ca5ceb60e6ecac543589cc8517c48fbe3f86575a015788ed6d29",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -327,8 +345,8 @@
             "command -v fsstat"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.535860Z",
-          "finished_utc": "2026-05-26T08:58:35.545504Z",
+          "started_utc": "2026-05-27T05:06:33.791017Z",
+          "finished_utc": "2026-05-27T05:06:33.815918Z",
           "exit_code": 0,
           "stdout_sha256": "aeadaeb7197863c700cb6d8556815f175c36950cae006d9561c563df49b241f5",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -346,8 +364,8 @@
             "/mnt/ewf/ewf1"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.545939Z",
-          "finished_utc": "2026-05-26T08:58:35.565041Z",
+          "started_utc": "2026-05-27T05:06:33.818296Z",
+          "finished_utc": "2026-05-27T05:06:33.856094Z",
           "exit_code": 0,
           "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -364,8 +382,8 @@
             "/mnt/ewf/ewf1"
           ],
           "cwd": null,
-          "started_utc": "2026-05-26T08:58:35.565369Z",
-          "finished_utc": "2026-05-26T08:58:35.634181Z",
+          "started_utc": "2026-05-27T05:06:33.857588Z",
+          "finished_utc": "2026-05-27T05:06:34.004917Z",
           "exit_code": 1,
           "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -373,10 +391,141 @@
           "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.3.stderr",
           "timeout_seconds": 120,
           "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "fsstat",
+            "/mnt/ewf/ewf1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T05:06:34.005560Z",
+          "finished_utc": "2026-05-27T05:06:34.509365Z",
+          "exit_code": 0,
+          "stdout_sha256": "5b963eba0121a84862fb7d60831de553f2eeb9004249ac3d948b45b164ef2245",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.4.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.4.stderr",
+          "timeout_seconds": 120,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "bash",
+            "-c",
+            "set -e; mmls_ok=0; fsstat_ok=0; if grep -hE '^[[:space:]]*[0-9]+:' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.*.stdout 2>/dev/null | grep -vE 'Meta|-{3,}' | grep -q .; then mmls_ok=1; fi; if grep -qiE 'File System Type[[:space:]]*(Label[[:space:]]*)?:' /home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.*.stdout 2>/dev/null; then fsstat_ok=1; fi; if [ \"$mmls_ok\" -eq 1 ] || [ \"$fsstat_ok\" -eq 1 ]; then exit 0; fi; echo 'STEP-0-3 ASSERTION FAILED: mmls produced no parseable partitions AND fsstat at offset 0 did not detect a filesystem. Image is likely encrypted, corrupted, or in an unsupported container format.' >&2; exit 1"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T05:06:34.510431Z",
+          "finished_utc": "2026-05-27T05:06:34.531241Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.5.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-3.5.stderr",
+          "timeout_seconds": 10,
+          "timed_out": false
+        }
+      ],
+      "halt_code": null,
+      "error": null
+    },
+    "STEP-0-4": {
+      "step_id": "STEP-0-4",
+      "status": "halted",
+      "started_utc": "2026-05-27T05:06:34.555561Z",
+      "finished_utc": "2026-05-27T05:06:37.978843Z",
+      "retries": 1,
+      "produced_artifacts": [],
+      "consumed_artifacts": [],
+      "produced_findings": [],
+      "degradation": [],
+      "log_path": null,
+      "commands": [
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "umount /mnt/image 2>/dev/null || true; mkdir -p /mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T05:06:34.556896Z",
+          "finished_utc": "2026-05-27T05:06:34.597731Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.0.stderr",
+          "timeout_seconds": 15,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "mount",
+            "-o",
+            "ro,noexec,loop,offset=0",
+            "/mnt/ewf/ewf1",
+            "/mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T05:06:34.599400Z",
+          "finished_utc": "2026-05-27T05:06:34.693657Z",
+          "exit_code": 12,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "dac5272cb207d0e5dcb0984e6b0f401a809a4f8b132c065bef5477f43092eee3",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.1.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "bash",
+            "-c",
+            "umount /mnt/image 2>/dev/null || true; mkdir -p /mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T05:06:37.870435Z",
+          "finished_utc": "2026-05-27T05:06:37.906021Z",
+          "exit_code": 0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.0.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.0.stderr",
+          "timeout_seconds": 15,
+          "timed_out": false
+        },
+        {
+          "argv": [
+            "sudo",
+            "-n",
+            "mount",
+            "-o",
+            "ro,noexec,loop,offset=0",
+            "/mnt/ewf/ewf1",
+            "/mnt/image"
+          ],
+          "cwd": null,
+          "started_utc": "2026-05-27T05:06:37.906946Z",
+          "finished_utc": "2026-05-27T05:06:37.977995Z",
+          "exit_code": 12,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "dac5272cb207d0e5dcb0984e6b0f401a809a4f8b132c065bef5477f43092eee3",
+          "stdout_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.1.stdout",
+          "stderr_path": "/home/sansforensics/Desktop/temporary_file_container/dfir_out_1/_runlog/STEP-0-4.1.stderr",
+          "timeout_seconds": 60,
+          "timed_out": false
         }
       ],
       "halt_code": "HALT_OUTPUT",
-      "error": "gate step STEP-0-3 failed: command 3 exited 1"
+      "error": "gate step STEP-0-4 failed: command 1 exited 12"
     }
   },
   "degradation_vector": {
@@ -390,7 +539,7 @@
     "encryption_present": false,
     "notes": []
   },
-  "current_step": "STEP-0-3",
+  "current_step": "STEP-0-4",
   "halted": true,
   "halt_code": "HALT_OUTPUT"
 }

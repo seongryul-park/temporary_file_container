@@ -1,0 +1,2 @@
+# whole_disk=true fs=ntfs offset_bytes=0 length_bytes=0
+OFFSET=0
